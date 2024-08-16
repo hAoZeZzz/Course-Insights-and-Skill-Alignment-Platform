@@ -1,0 +1,1569 @@
+Project Title,Project Clients,Project Specializations,Number of groups,Background,Requirements and Scope,Required Knowledge and skills,Expected outcomes/deliverables,Supervision,filename
+Course Insight and Skills Alignment Platform,"Dr Basem Suleiman,  School of Computer Science and Engineering and 
+Arthur Chen","Software development/Engineering, Web Application 
+Development, Data Analytics and Visualization, Natural Language Processing (NLP),",2,"The project aims to develop a web application platform that collect and aggregate course 
+information (course outlines) from different data sources (e.g., web pages, other systems) and 
+implement an LLM-supported module  to summarize the topics, knowledge, and skills covered 
+in each course. Additionally, the application allows users to input their completed courses, and 
+work experience, and use AI based decision making system to assess how well their knowledge 
+and skills align with project requirements.","Users  
+• Admin users can manage user accounts and the platform.  
+• Users with different roles and responsibilities can create their account, login and 
+operate the system based on their roles and responsibilities.  
+• Users can edit/maintain their profiles.  
+Academic users  
+• Academic users (with privileges) can choose to scrape or collect course information 
+from selected sources (e.g., web page, files, or other system). Collected course 
+information will be saved and updated in a database with version history 
+(timestamped).  
+• Academic users can add course to summarize by providing data source of the course 
+information / outline (extracted from one or more data sources – files, web page, other 
+system). Course summary can include key skills, knowledge areas, topics. This should 
+be powered by LLM.  
+• Academic users can see and visualize the topics, knowledge, and experience of one or 
+more course (both textual and visual summary)  
+• Academic users can add projects and specify project details (title, scope, 
+requirements, skills, knowledge areas/topics, expected outcomes)  
+Student users  • Students can create their own profile and maintain it.  
+• Students can add/choose list of courses they have successfully completed. This can be 
+done through manual selection of courses and through uploading academics 
+transcripts. The system will provide a summary of the overall gained knowledge with 
+different vie ws. It will also provide summary of skills and knowledge of each course. 
+The summaries will include textual and visual formats.  
+• Students can generate skills gap analysis through the system, highlighting the extent 
+to which a student profile meets knowledge and skills of a project.  
+• Students can see list of recommended students who their profile best match their own 
+knowledge and skills. Students may choose to join a group.  This match should be 
+powered by LLM.  
+• Students can see list of projects that best match their knowledge and skills.  This 
+match should be powered by LLM.  
+• Student can choose to share their profiles with other students and academics.","• Familiarity with web application development (front-end and back-end) 
+o Technology stack can be flexible – e.g., MEAN stack.  
+• Familiarity with web development and testing frameworks and practices  
+• Familiarity with database design and management for storing data (e.g., NoSQL)  
+• Familiarity with UI/UX principles and implementation  
+• Familiarity with NLP techniques and libraries especially for LLM.  
+• Familiarity with Agile software development methods, practices and tools  
+• Familiarity with software testing, building and deployment.","• Project documentation including source code, system architecture and design, UI/UX, 
+different types of testing, user manuals and guide, technical guide  
+• Responsive Web application which is accessible on various devices, e.g., tablets and 
+smartphones.",None,P36 - Course Insights and Skill Alignment Platform.pdf
+Successful Outcomes,Sonit Singh,"Software development; Web application development; Big data 
+analytics and visualization .",3,"With the changing educational landscape, it is important that students must achieve outcomes 
+successfully for which they are originally enrolled. Bloom’s taxonomy provides a two -
+dimensional framework for identifying, categorising, and scaffolding learning outcomes with a 
+cognitive emphasis. A web application to support such mapping can give students better 
+successful outcomes, allow schools and univ ersities to identify gaps in course offerings as well 
+as redundancies, and help schools to utilise evidence-based information for accreditation 
+purposes.","The aim of the project is to build a tool to map course learning outcomes in a program to assess 
+cognitive levels incorporating Bloom’s Taxonomy. The Bloom’s taxonomy divides learning 
+objectives into six levels, each indicating a different cognitive proces s. 
+The project will be provided access to course outlines for various CSE programs. The goal is to 
+extract course learning outcomes and map to Bloom’s taxonomy levels.","For this project, we will be using web development frameworks such as MERN (MongoDB, 
+Express, React.js, and Node.js) but open based on the skills of the group.","The team working on the project should deliver a written report on the project, source code, and 
+working web application .",Sonit Singh,P16 - Successful Outcomes.pdf
+Career path analysis and lifelong learning,Sonit Singh,"Software development; Web application development; Artificial 
+Intelligence (Machine/Deep Learning, NLP); Big data analytics and visualization.",3,"With the rapid development of technologies such as artificial intelligence (AI), generative 
+artificial intelligence (GenAI), and internet of things (IoT), the landscape of jobs market is very 
+dynamic and demands new skills and knowledge. Current and future workforce will have to 
+either upskill as they move to new jobs within the same i ndustry or reskill themselves, 
+highlighting the importance and need of lifelong learning. Therefore, there is a need to collect 
+and analyse data to understand evolving labour market landscape providing users the insights 
+about career pathway trajectories a nd giving recommendations for retraining or reskilling.","The aim of the project is to collect and analyse job postings data collected by Burning Glass, 
+user profiles or resumes on professional networking sites such as LinkedIn, Seek, and Indeed. 
+We will extract key entities such as job titles, education, skills,  and companies and analyse the 
+data which can help us to visualise career trajectories and recommendations for future jobs.   
+The project requires team to scrap data from professional networking sites like LinkedIn, Seek, 
+and Indeed, analysing it and building some sort of visualisation tool for career pathway 
+modelling.","The team working on this project must have data science skill such as web scrapping, 
+visualisation, and building models and have proficiency in Python programming. Given the goal 
+of this project is to come up with a visualisation tool, familiarity with web  application 
+development is added benefit.","The team working on the project should deliver a written report on the project, source code, and 
+working web application.",Sonit Singh,P8 - Career path analysis and lifelong learning.pdf
+University progression pathways visualisation and analysis,Stuart Prescott,"Software development; Web application development; Big data 
+analytics and visualization .",4,"Students take lots of different pathways through our degrees - even in streams where there are 
+not many electives, the order in which courses are taken is often not as designed, due to being 
+enrolled part time, double degrees, failing courses, going on exchange, or simply just deciding 
+against following the advised course sequence.  
+ 
+The goals of the project are to develop one or more tools that  
+- help visualise the paths that students take through their degrees  
+- help identify students who are taking unusual course sequences to be able to make contact 
+for academic advising  
+- help predict course enrolments in subsequent courses based on typical pathways and prereqs 
+having been met .","Pathways through the BE(Hons) degree; we can initially scope this down to just one or two 
+streams. Building the tools flexibly enough that they can be applied to other programs and 
+streams is necessary.  
+1. Loading data from standard sources; likely several years' of per-term SiMS enrolment 
+records (de-identified or synthetic)  
+2. Visualisation on a course-by-course basis, e.g. sankey diagrams of pathways into and out of 
+a target course  
+3. Visualisation on a stream basis, e.g. a graph with weightings  
+4. Visualisation/reporting of students who are off-plan 
+5. Summarisation/reporting tools of projected numbers of students who are eligible for courses 
+in future terms based on progression/prereq requirements  
+6. Stretch goal... ML to predict numbers for next 3 terms based on historical trends and current 
+term.","Data handling, cleaning etc - this will be database-backed  
+Data visualisation  
+UI design .","UI for enrolment data analysis - source code  
+Documentation of algorithms used to clean, link, visualise data  
+User guide for common tasks  
+Not prescriptive about the form of the UI as desktop app or web app - but be conscious that a 
+real deployment would be touching student data classed as personal or sensitive.",Stuart Prescott,P21 - University progression pathways visualisation and analysis.pdf
+AI-Driven Shoreline Mapping for Coastal Monitoring,Jonathan Chan,"Software development; Artificial Intelligence (Machine/Deep 
+Learning, NLP); Computer vision.",5,"With rising sea levels, more intense storm events and increased coastal development, effective 
+coastal management is integral to preserving and protecting vulnerable communities and 
+ecosystems in low-lying coastal areas.  
+A key metric for informing coastal management and answering challenging questions such as 
+“Where is the coastline most vulnerable?” or “How effective is this artificial reef?” is beach width 
+variability. The primary means of measuring beach width variabili ty involves extracting the 
+shoreline positions (the sand-water interface) from images, such as satellite images, phones 
+and fixed cameras . 
+Current tools for extracting shoreline positions from images are based on simple image 
+processing techniques, are specific to image types and require manual intervention, restricting 
+the potential for extracting shorelines from images in near real-time and  from the extensive 
+archive of coastal images. With recent advances in AI, neural networks and image 
+segmentation, there’s potential for a powerful tool for extracting shorelines from all types of 
+images. If developed, this tool would greatly enhance the d ata accessible to coastal scientists 
+and practitioners, leading to more informed coastal management.  
+The goal if this project is to have a single and robust AI drive solution to effectively extract 
+shorelines from images.","The scope of this project is to develop a robust AI-driven tool for automatically mapping 
+shoreline positions from various image sources, including satellite images, phone images, and 
+fixed camera images. The tools could be used by people with different ba ckgrounds and from 
+anywhere in the world, so it is important that the tool is simple and user-friendly. It is understood 
+that some machine learning tools and packages that could be incorporated into the solution 
+require specific hardware.  
+The group will be provided with an extensive dataset comprised of images and mapped 
+shorelines for model training and validation. The group will then design and implement their 
+own solution to extract shoreline positions from images.  
+The group needs to ensure the tool can handle images from various sources with different 
+resolutions and qualities. The group will initially begin by developing a tool to work on oblique 
+aerial images and following this the group will incorporate satellite imagery.  
+The solution should be simple and easy to use, requiring minimal user input besides some hyperparameter tuning and a user-defined image source and output directory.","Experience programming in python would be preferable, but not essential.","A robust tool for mapping shorelines on different image sources (fixed cameras, phone 
+cameras and satellite images).  
+• Documentation for deployment  
+• A user guide.  
+• A report containing a summary of the options that were explored, a diagram of the system 
+architecture, justification for the chosen architecture, a summary of model hyperparameter 
+tuning and a summary of the overall model performance for different image so urces.",Jonathan Chan,P29 - AI-Driven Shoreline Mapping for Coastal Monitoring.pdf
+Modelling the interplay of COVID-19 variants in Australia,Jiaojiao Jiang,Software development; Big data analytics and visualization .,6,"Australia experienced initial COVID-19 outbreaks in early 2020, leading to nationwide 
+lockdowns and strict public health measures. The emergence of new variants has posed 
+ongoing challenges. For instance, the Delta variant caused significant outbreaks in 2021, and 
+the Omicron variant led to new waves of infections due to its high transmissibility. The aim of 
+this project is to develop a s ystem to understand and predict the interplay of different COVID-19 
+variants in Australia. This model will analyze the spread, mutation rates, and impact of various 
+COVID-19 variants, providing valuable insights to inform public health strategies and 
+interventions.","1. Data Acquisition: Collecting data from national health departments.  
+2. Data Processing: Cleaning, preprocessing, and integrating data from multiple sources.  
+3. Model Development: Implementing the SEIRS-V model to simulate the local dynamics of 
+infection spreading.  
+4. Variant Interaction Analysis: Analyzing how different variants interact and compete within the 
+population.  
+5. Visualization Tools: Developing interactive dashboards and visualizations to display model 
+results and predictions.  
+Data Collection  
+1. Data Sources: Integrate data from national health departments.  
+Epidemiological Model Development  
+1. Model Framework: Implement the SEIRS-V model to simulate the spread of COVID-19 and 
+its variants.  
+2. Variant Interaction: Incorporate mechanisms to model the interaction between different 
+variants, including competition and mutation dynamics.  
+ 
+  
+Visualization  
+1. Interactive Dashboards: Develop interactive dashboards to visualize model outputs, trends, 
+and predictions.  
+2. Graphical Representations: Provide various types of visualizations such as line graphs, heat 
+maps, and network diagrams to represent data and model results.","Programming Languages  
+1. Python: For data processing and backend development.  
+2. JavaScript: For frontend development.  
+3. SQL/NoSQL: For database management and querying.  
+Adaptability and Collaboration  
+1. Learning New Technologies: Willingness to learn and adapt to new technologies and 
+methodologies as the project evolves.  
+2. Team Collaboration: Ability to work effectively within a multidisciplinary team.","source code, user guide, and documentation.",Jiaojiao Jiang,P12 - Modelling the interplay of COVID-19 variants in Australia.pdf
+3D motion capture from RGB images,"Rahm Ranjan  and Sensory Processes and Innovations Lab (UNSW) and The 
+Livability Lab (UNSW)",Software development; Computer vision .,7,"Background: human motion capture is required for many industries such as healthcare. Current 
+gold standard relies on expensive 3D motion capture equipment such as Opti track systems. 
+Use of human pose estimation algorithms on 2D images can allow for cheape r and more 
+portable methods of capturing human motion such as video data.  
+Goals: Develop software that takes the input of two synchronized videos of a human and 
+reproduces 3D coordinates that can be visualized using 3D modeling program such as Blender 
+or Unity.","In-Scope:  
+• Algorithm Development:  
+o Research and implement coordinate reconstruction algorithms.  
+o Optimize for accuracy over real-time performance.  
+• Video Input Handling:  
+o Accept synchronized video input.  
+o Extract relevant frames for processing.  
+o Calibration of cameras or hardware setup for video synchronization.  
+• Coordinate Export:  
+o Visualise reconstructed 3D coordinates as data formats such as pkl and csv files.  
+• Integration with 3D Modeling Software:  
+o Ensure compatibility with Blender and Unity.  
+o Provide clear instructions for users on importing the data.  
+• Out-of-Scope:  
+• Advanced Features:  
+o Any additional features beyond basic coordinate reconstruction and visualization.  
+o Features that significantly extend the project timeline.  
+• User Training:  o In-depth training or tutorials for using Blender or Unity.  
+Our goal is to develop software that takes input from two synchronized videos of a human 
+subject and reconstructs 3D coordinates. Code is in Python/C++. These coordinates can then 
+be visualized using 3D modeling programs such as Blender or Unity. The proje ct duration is 10 
+weeks .","Students have prior experience in software development and computer vision. They are able to 
+use python/c++.","• The software successfully reconstructs accurate 3D coordinates from synchronized video 
+input.  
+• Users can visualize these coordinates in Blender or Unity.  
+• The user interface is intuitive and straightforward.",Rahm Ranjan,P32 - 3D motion capture from RGB images.pdf
+Developing a bioinformatics pipeline for immunome analysis,Sara Ballouz,"Software development; Computer Science and Algorithms; Big  
+data analytics and visualization; Bioinformatics/Biomedical .",8,"Identification of the antigens associated with antibodies is vital to understanding the immune 
+response. However, high-throughput analysis of these antigens is still limited as it is expensive, 
+and thus current software tools to analyse this data are lacki ng.  
+The aims of this project are to implement several algorithms to analyse data from the Serum 
+Epitope Repertoire Analysis (SERA) platform that can be used as a standalone package or part 
+of a bioinformatics pipeline .","The students will develop a software tool or package that will parse and process the data from 
+the SERA platform. This will include quality control, at least two algorithms, visualisation reports 
+and processed data for downstream analysis.  
+Multiple algorithms have been written to analyse this data but are not freely available. An in -
+house developed tool that can be shared/used will aid in the analysis of this data by non -
+bioinformatics researchers. Most of this analysis involves sequence pro cessing and matching, 
+and statistical tests to determine significance and likelihoods.  
+Data:  
+SERA data is the processed output from next-generation sequencing of the antigens that have 
+been extracted from a sample. This data is in the form of short peptides/protein k -mers (k=5 
+and k=6), from a restricted alphabet of amino acids (~20 letters), alon g with a Log -Enrichment 
+score (LE) of that peptide. Each sample will have on average 2.7million 5-mer and 8.7million 6-
+mer peptide sequences. The data is in the form of CSV files.  
+E.g.,  
+CRICM,112.718522  
+CRVCM,107.296108  
+TTRAE,107.136805  
+CIICM,96.581866  
+CTICM,94.422249  ACDSK,91.548217  
+Algorithms:  
+- PIWAS (Protein-based Immunome Wide Association Study). 
+https://pubmed.ncbi.nlm.nih.gov/33986742/  
+- PIE (Protein wide Identification of Epitopes) 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10620090/  
+PIWAs:  
+PIWAs is used to identify antigen and epitope signals against a reference proteome. As input 
+for the PIWAs algorithm, samples are labelled by condition and a target proteome selected. For 
+each sample and protein in the proteome, PIWAs scores are calculated  by tiling the kmers onto 
+the protein sequence, smoothing over a window of these kmers, normalizing to the background 
+signal, and calculating the maximum value. Background samples might not be available and 
+simulated data will need to be used.  
+PIE: 
+The PIE algorithm is used to locate regions within the protein sequence that had stronger outlier 
+signals. In this case, for each position in the protein sequence, all case and control sample 
+values are normalized using median absolute deviation based on t he distribution of the control 
+sample values. An outlier threshold is calculated and then an outlier statistic. Values exceeding 
+set thresholds are considered significant, and adjacent regions merged to define the region of 
+interest.  
+Output and data visualisation:  
+The output should be the proteins (and their sequences) detected from the PIWAs, and the 
+regions of interest from the PIE analysis.  
+Visualisation will include distributions or log-enrichment scores, heatmaps of tiling, plots of 
+smoothing and outlier scores.  
+Further/exact details will be discussed.  
+Depending on time, additional methods may be incorporated into the package.  
+These include and are not limited to:  
+- A shiny app  
+- Unsupervised analysis of the output (PCA, linear regression, hierarchical clustering)","Students should know how to use either python or R for statistical and visualisation.   
+Scripting languages (as simple as bash) and workflow tools such as Docker or Snakemake.  
+Basic biology is not necessary but useful (ie what are proteins, sequencing) .","Expected outcome:  
+Final product should be a software package for either R or python (or both!) that implements the 
+tools for the analysis of SERA data.  
+ 
+Deliverables:  
+- Source code (scripts/software) that can run as part of a next -generation sequencing pipeline  
+- Implementation of the PIWAs algorithm as a standalone and one that can run as part of the 
+package  
+- Implementation of the PIE algorithm as a standalone and part of the package  
+- Visualisation plots of the outputs that can be used with the output from the software/tool  
+- Documentation on how to use the scripts and examples  
+- Any additional functionality that are within the scope of the project that will help in its use .",Sara Ballouz,P13 - Developing a bioinformatics pipeline for immunome analysis.pdf
+Event Aggregation and Management Platform,Dr Basem Suleiman,"Software development /Engineering , Web/Mobile  
+Application Development,  Algorithms",9,None,None,None,None,None,P41 - Event Aggregation and Management Web Platform.pdf
+"Comparative Analysis of Fine-Tuning Techniques for Large Language Models on 
+Domain-Specific Tasks","Dr Basem Suleiman , Piyavachara Nacchanandana","Software development; Web application development; Artificial 
+Intelligence (Machine/Deep Learning, NLP); Big data analytics and visualization.",5,"Large language models (LLMs) have showcased remarkable performance across various 
+natural language processing tasks. However, their out-of-the-box capabilities can be further 
+enhanced by fine-tuning them on specific datasets and tasks. This project delves into the 
+empirical comparison of different fine-tuning techniques on at least two large language models, 
+aiming to identify the most effective strategies for various domain-specific applications.  
+Project Goals:  
+Comparative Analysis: The primary goal is to systematically compare and evaluate the 
+effectiveness of different fine-tuning techniques (e.g., full fine-tuning, parameter-efficient fine-
+tuning, prompt tuning, knowledge distillation) on at least two pre-trained LLMs.  
+Performance Benchmarking: Establish performance benchmarks for the selected LLMs on two 
+chosen datasets, assessing their baseline capabilities before and after fine-tuning.  
+Domain-Specific Insights: Analyze the impact of different fine-tuning techniques on domain-
+specific tasks. Identify which techniques are most suitable for different types of tasks or 
+domains.  
+Resource Optimization: Explore methods for efficient fine-tuning, such as parameter-efficient 
+techniques, to reduce computational costs and training time.  
+Generalization: Assess the ability of fine-tuned models to generalize to new, unseen data within 
+the chosen domain.","The project will encompass the following:  
+ 
+LLM Selection: Choose at least two pre-trained LLMs (e.g., GPT-3, BERT, T5) with different 
+architectures and training objectives.  
+ 
+Dataset Selection: Select two datasets relevant to the chosen domain(s) with diverse 
+characteristics (e.g., size, text types, task complexity).  
+ Fine-Tuning Techniques: Implement and evaluate at least three different fine-tuning techniques, 
+such as:  Full fine-tuning , Parameter-efficient fine-tuning (PEFT) methods (e.g., LoRA, 
+AdapterHub) , Prompt tuning  and Knowledge distillation  
+ 
+Experimental Design: Design a rigorous experimental framework to compare the performance 
+of different fine-tuning techniques across multiple tasks and datasets.  
+Evaluation Metrics: Choose appropriate evaluation metrics (e.g., accuracy, F1 score, BLEU 
+score ) to measure the p erformance of each model and fine-tuning technique.  
+ 
+Analyze the results and draw conclusions about the effectiveness of different techniques.  
+Out of Scope:  
+ 
+Training LLMs from Scratch: This project will focus on fine-tuning existing LLMs, not training 
+new ones.  
+ 
+Large-Scale Deployment: The project will not involve deploying models in a production 
+environment.","Machine Learning and NLP: Strong understanding of ML and NLP concepts, including 
+transformers, language models, and fine-tuning techniques.  
+Programming: Proficiency in Python and experience with deep learning frameworks (e.g., 
+PyTorch, TensorFlow) and libraries (e.g., Hugging Face Transformers).  
+Experimental Design: Ability to design and conduct rigorous experiments to compare different 
+methods.  
+Data Analysis: Skills in analyzing and interpreting experimental results.","A comprehensive comparative analysis of different fine-tuning techniques for LLMs on domain-
+specific tasks.  
+Performance benchmarks for the chosen LLMs on the selected datasets.  
+Insights into the most effective fine -tuning strategies for different types of tasks and domains.  
+A well-documented report detailing the project's methodology, results, and conclusions.",Piyavachara Nacchanandana,P3 - Comparative Analysis of Fine-Tuning Techniques for Large Language Models on Domain-Specific Tasks.pdf
+Gamification for rehabilitation using HMD VR,Juno Kim,"Software development; System/game development; Human 
+Computer Interaction (HCI).",1,"Patients with sensorimotor dysfunctions (e.g., follow stroke or vestibular damage) often require 
+extensive rehabilitation that requires continuous monitoring by clinical staff who provide patients 
+with feedback on their performance. What if this feedback could be provided automatically to 
+patients engaged in task-orientated activities using virtual reality (VR)?  
+ 
+The project aims to develop a standalone VR application that can be used to perform a quick 
+assessment of patient sensorimotor control. This will require the use of a standalone VR 
+headset used to immerse patients in virtual environments .","Recreate an existing WebXR application (similar to Whac-a-mole) or create a new interactive 
+environment for running a visual search task (e.g., virtual supermarket aisle).  
+*The application workflow*  
+1. You will create an immersive environment using 3D content development software.  
+2. You will adapt or create a new game engine to assess sensorimotor performance in head -
+mounted display (HMD) based VR.  
+3. Position and orientation of the HMD and hand remotes will need to be monitored to assess 
+performance in basic reaching tasks involving virtual target objects.  
+4. Users should receive a score for each round of game play.  
+5. A simple usability assessment will be undertaken at the end of the project.","Knowledge about game development and application development for virtual reality (e.g., Unity, 
+Unreal engines) .","A standalone application and all source code to be delivered with a brief report on usability of 
+the system .",Juno Kim,P23 - Gamification for rehabilitation using HMD VR.pdf
+Business Process for SMEs Utilizing E-invoicing APIs,"Prof. Fethi Rabhi, Muhammad Raheel Raza  (FAIC researcher )","Software development; Cloud computing; Web application 
+development; Mobile application development .",10,"Australian Government has introduced E-invoicing technology, and many businesses need a 
+system to convert from PDF to XML format. The purpose of this project is to design and 
+implement a comprehensive business process for Small and Medium Enterprises (SMEs) to 
+efficiently manage el ectronic invoicing (e-invoicing) using Application Programming Interfaces 
+(APIs). The project is specifically PDF -> UBL conversion with validation according to Australian 
+rules. This process will encompass e-invoice creation, validation, and sending proce sses.  
+The project goals include : 
+• Streamline e-invoicing processes for SMEs by leveraging e-invoicing APIs.  
+• Invoicing processes for SMEs by leveraging e-invoicing APIs.  
+• Reduce manual intervention and errors associated with traditional invoicing methods.  
+• Enhance efficiency and accuracy in invoice generation, validation, and transmission.","• Development of a business process flow for e-invoicing encompassing creation, 
+validation, and transmission stages.  
+• Integration of e-invoicing APIs into existing SME systems or development of standalone 
+e-invoicing system.  
+• Documentation of the implemented business process and API integration guidelines for 
+SMEs.  
+• Design of a front-end application combining all the API services.  
+• Selection of suitable e-invoicing APIs based on compatibility with SME systems, 
+regulatory compliance, and cost-effectiveness.  
+• Integration of API authentication mechanisms to ensure secure data transmission.  
+• Implementation of data encryption and privacy measures to safeguard sensitive 
+invoicing information.  • Testing and validation of the implemented business process and API integrations in a 
+controlled environment before deployment.  
+• Design of a front-end application, combining all API services.","Software Engineering and software development, Application Programming Interface (API) 
+knowledge .","• Fully functional source code.  
+• An in-depth report documenting the entire project process.  
+• API documentation provided by the selected e-invoicing service providers, including API 
+endpoints, request/response formats, authentication methods, and error handling 
+procedures.  
+• Detailed documentation outlining the business process flow, API integration steps, and 
+usage guidelines for SMEs .",Muhammad Raheel Raza,P35 - Business Process for SMEs Utilizing E-invoicing APIs.pdf
+Reverse-engineering a Robotic Control System,Hammond Pearce,"Software development; Mobile application development; 
+Robotics .",2,"Commercial robots are expensive and come without comprehensive documentation. This is fine 
+when the robots are used for their intended purpose, but what can be done if the robot outlives 
+the job it was created for - yet remains functional? Ideally, the rob ot would be repurposed, but 
+without the proprietary knowledge describing its control system, options are limited.  
+ 
+In this project, the group will resolve this challenge using the case study of a retired food 
+delivery robot. Currently the robot is controlled via a closed-source Android app on a custom 
+Android platform. We want to reverse engineer the controller to unde rstand it, then replace it 
+with our own custom controller. This may involve software and hardware reverse engineering .","1. Understand the existing robot platform and software  
+2. Extract the existing Android app and decompile it  
+3. Build a model of how the existing Android app functions  
+4. Create a new Android app (or similar) which replicates the original functionality  
+Ideally we will create a teleoperation app which allows us to ""remote in"" to the robot and control 
+it via remote control, seeing through its cameras and drive it from a joystick remotely.","1. Android app development, debugging  
+2. Some knowledge of robotics  
+3. (Optional but not required) Android app decompilation  
+4. (Useful) Knowledge of robotic mapping algorithms like SLAM etc.","1. A documentation guide describing the internal robotic control APIs  
+2. Source code of an app which interfaces with those APIs  
+3. The app supports teleoperation",Hammond Pearce,P10 - Reverse-engineering a Robotic Control System.pdf
+A Platform for Melody Mentoring,Dr Basem Suleiman,"Software development /Engineering , Web Application 
+Development,  Algorithms, AI",3,None,None,None,None,None,P40 - A Platform for Melody Mentoring.pdf
+Event processing,"Aya Tafech , Dr. Basem Suleiman, Prof. Fethi Rabhi","Software development; Web application development; Computer 
+Science and Algorithms; Big data analytics and visualization.",2,"Complex event processing is used to invest and analyse event data to derive business 
+knowledge. It is useful when relationships between datasets exist in the form of business 
+knowledge and determining which events have occurred and when adds more meaning.","Students will design and build their proposed solution for a complex event processing engine 
+that can take two datasets, determine events that have occurred in each and then analyse how 
+the events are related via a rule repository.  
+The students will need to choose two datasets at least and each dataset must have at least two 
+types of events defined. The two datasets also need to be related through business knowledge 
+that will be used to create a rule repository. The final design shou ld also include a user interface 
+that shows the detected events and the inferred relationships.","• Python programming  
+• Good event data processing knowledge  
+• Familiarity with Web application development .","• Documentation that covers solution design, architecture,  and use of the event processing 
+engine.  
+• Implementing the product using two datasets  
+• Presentation/demonstration of the application and how a data user would interact with the 
+application .",Aya Tafech,P28 - Event processing.pdf
+Privacy -Preserving Federated Learning for Medical X-Rays,"Dr Basem Suleiman  and Piyavachara Nacchanandana (Research 
+Student) . 
+Number of groups: 2 
+Main contact:  Piyavachara Nacchanandana",None,2,None,None,"Machine Learning Fundamentals: Strong understanding of machine learning 
+concepts, algorithms (e.g., regression, classification, neural networks), and 
+evaluation metrics.  
+ 
+Federated Learning: Knowledge of federated learning principles, architectures, and 
+challenges.  
+ 
+Programming: Proficiency in Python and experience with machine learning libraries 
+(e.g., TensorFlow, PyTorch) and federated learning frameworks (e.g., TensorFlow 
+Federated).  
+ 
+Privacy and Security: Understanding of privacy-preserving techniques ( e.g., 
+differential privacy, secure aggregation) and security considerations in distributed 
+systems.  
+ 
+Data Processing: Familiarity with data preprocessing, feature engineering, and 
+handling data heterogeneity.  
+ 
+Problem-Solving: Ability to analyze complex pr oblems, design solutions, and 
+implement them effectively.","A working federated learning system tailored to the chosen application domain.  
+ 
+Thorough evaluation of the system's performance and privacy guarantees.  
+ 
+A comprehensive report detailing the project's findings, challenges, and potential 
+future directio n.",Piyavachara Nacchanandana,P2 - Privacy-Preserving Federated Learning for Medical X-Rays .pdf
+"Development of a Computer Vision -Based Application for Quantifying Food Powder 
+Solubility with AI Analysis",Yong Wang,"Software development; Computer Science and Algorithms; 
+Artificial Intelligence (Machine/Deep Learning, NLP); Big data analytics and visualization; 
+Computer vision; Human Computer Interaction (HCI); Bioinformatics/Biomedical.",4,"The food industry requires an efficient and accurate method to quantify the solubility of food 
+powders, which is currently done qualitatively by observing the dissolution of powders in liquid. 
+This project aims to develop a computer vision-based application to automate and quantify this 
+process. By using video analysis, the software will measure the solubility rate of powders in 
+different solvents (cold water, hot water, and coffee) and produce solubility curves over time. 
+Additionally, AI and machine learning techniques will be employed to classify the solubility 
+results into categories (e.g., good, medium, bad) based on human-marked training data. This 
+will provide a more detailed and v aluable understanding of powder solubility, benefiting the 
+industry by offering precise, quantifiable data and automated quality assessment.","The project involves developing a software application that can:  
+ 
+Record videos of food powders dissolving in solvents.  
+Analyze the video to quantify the remaining powder on the liquid surface over time.  
+Produce solubility curves to show the dissolution rate.  
+Implement AI/machine learning models to classify solubility re sults based on training data.  
+Create a database to store results and improve AI models through continuous training.  
+The software will use standardized beakers and controlled stirring methods  to ensure 
+consistency. It will start with commercial food powders like milk powder and eventually expand 
+to other types.  
+Software/Application Development: Create an application for recording and analyzing videos.  
+Computer Vision: Implement algorithms to detect and quantify powder residue on the liquid 
+surface.  
+Data Analysis: Generate solubility curves from the video data.  
+AI/Machine Learning: Develop and train models to classify solubility results. Create a feedback 
+loop for continuous improvement of the models based on human-marked data.  
+Testing: Validate the software using commercial food powders and standardized solvents.  
+Documentation: Prepare user guides and technical documentation for the application.","Software development (especially in video processing and computer vision)  
+Machine learning and data analysis  
+Familiarity with image processing libraries and tools (e.g., OpenCV, TensorFlow)  
+Experience with AI/machine learning frameworks (e.g., scikit-learn, PyTorch)  
+Basic understanding of food science (preferable but not essential)","Functional software application for video recording and analysis  
+Quantified solubility data and solubility curves for different food powders  
+AI models for classifying solubility results and a feedback loop for continuous improvement.  
+Comprehensive user guide and technical documentation  
+Source code repository with proper version control.",Yong Wang,P6 - Development of a Computer Vision-Based Application for Quantifying Food Powder Solubility with AI Analysis.pdf
+EA-Assist,"Dr.Basem Suleiman, I romie Samarasekara","Web application development; Artificial Intelligence 
+(Machine/Deep Learning, NLP);Big data analytics and visualization; Human Computer 
+Interaction (HCI).",2,"With the increasing complexity of today’s business environments, organizations are increasingly 
+interested in having a comprehensive conceptual representation of their operating model and 
+enterprise architecture. However, owing to the siloed and tacit orientation of knowledge within 
+enterprises, e nterprise modelling has become a challenging task which imposes a significant 
+cognitive burden on enterprise architects and business analysts. EA-Assist will help to mitigate 
+this problem by providing real time conversational assistance to enterprise archi tects that is 
+both context specific and reliable .","The EA-Assist project aims to develop a Chatbot that helps enterprise architects to perform 
+modelling on enterprise elements. The application should be able to provide conversational 
+assistance that is customized for the context of the user. The responses may range from 
+definitions to customized entity mappings based on generic industry standards and should also 
+be capable of performing entity extraction from unstructure d documents . 
+Key Features:  
+1. Document Analysis: The application shall be capable of analysing unstructured data to 
+extract the relevant information and provide the output as chat responses  
+2. LLM Integration: Integration with ChatGPT API to respond to industry specific queries in a 
+more personalized manner  
+3. Textual and Visual Outputs: The application should be capable of providing outputs that are 
+textual for straight forward queries or questions that demand explanations. However, 
+diagrammatic outputs would be required to present models as responses.  
+4. Ability to Download: Users shall be able to download models in multiple formats (JPG, PNG 
+and PDF)  
+Innovative Features:  
+Develop at least two additional innovative features beyond the required ones.","Web application Development, APIs, Natural Language Processing, Basic understanding on 
+Large Language Models .","• Documented source code and a final recorded demo (Following requirement in the 
+proposal for the demo).  
+• Project documentation covering requirements, architecture design, user workflows, data 
+models, and user guides. A section on challenges encountered.",Iromie Samarasekara,P30 - EA-Assist.pdf
+Automated testing for software-defined GPS receiver,Ignatius Rivaldi,"Software development; Internet of Things (IoTs); Testing, signal 
+processing.",4,"Software defined GPS receivers calculates position, velocity  and timing (PVT) solutions from 
+received GPS signals captured from a software-defined radio (SDR). Australian Centre for 
+Space Engineering Research (ACSER, https://www.unsw.edu.au/research/acser) develops its 
+own in-house receiver as part of our GPS resea rch. Additionally, we also use open source 
+software receivers, such as GNSS-SDR, FGI-SGRx and JuliaGNSS.  
+However, a simple software bug, such as a wrong sign in one of the navigation equations, will 
+lead to a very wrong position solution. One of the example of this was found on an open source 
+GPS receiver: https://github.com/JuliaGNSS/PositionVelocityTime.jl/ issues/8 , where a simple 
+sign mistake leads to 800 m position error.  
+Other than the obvious problem of leading the user to the wrong location, ACSER is using 
+these software receivers as part in related GPS research, such as using reflected GPS signals 
+from Earth's surface to determine its properties, such as ocean wind spee d and determining 
+sea ice boundary. These depends on correct PVT solutions generated from these software 
+receivers to generate the correct output.  
+To test the receivers, ACSER owns several GPS simulators. These simulators can generate 
+simulated GPS signals in different scenarios, such as a stationary receiver or a receiver 
+traveling in low Earth orbit. The simulators can output the truth data, allowi ng us to compare the 
+accuracy of the software receivers. However, the simulators need to be manually set up, which 
+makes it hard to do automated testing.  
+In summary, our goal for this project is to:  
+- Automate the setup of GPS simulator  
+- Interface with the receiver to get PVT solutions  
+- Compare the solutions generated by the receiver with truth data generated by GPS simulator  
+- Automate these three steps, so that this testbench can run as part of a CI/CD workflow .","The MVP is to create automated test driver for two GPS simulator and two software receivers, 
+with a web interface to visualise the results . 
+- Create a library to interface with GPS simulators, allowing for full automation  
+- Design a system to gather navigation results from GPS receivers under test  - Compare navigation results with ground truth data generated by GPS simulator, following 
+common GPS accuracy criteria  
+- Integrate with GitHub Actions / other CI/CD system to automatically run the tests  
+- (maybe) Use signals from publicly available datasets, such as NASA CYGNSS or sdr.ion.org 
+as part of the testing datasets","- Python programming skills  
+- Statistics knowledge  
+- Willing to learn Dash web dashboard framework .",TBC,Ignatius Rivaldi,P25 - Automated testing for software-defined GPS receiver.pdf
+Helping 10 million people with Parkinson's disease walk to the beat of music,"Walking Tall Health , Matthew Brodie",Mobile application development,5,"OVERVIEW  
+Translated into five languages, the Walking Tall phone app is already helping 1,000's of people 
+with Parkinson's walk. Take the next step with your CSE Capstone project and develop a new 
+""walking to the beat of music"" feature in partnership with UNSW spin-out Walking Tall Health.  
+ 
+BACKGROUND  
+A team led by UNSW Sydney biomedical engineer Dr Matthew A Brodie developed the Walking 
+Tall app following a clinical trial funded by Shake It Up Australia Foundation and the Michael J 
+Fox Foundation for Parkinson’s Research. Part of the trial utilised the  app’s gait re-training tool 
+which now allows users to set their own training time and pace before delivering a rhythmic 
+metronomic beat for three different walking speeds that is designed to trigger movement. The 
+app is free to download from the iOS store  and Android store.  
+See http://www.walkingtallhealth.com.au/   
+ 
+CAPSTONE GOALS  
+Based on end-user feedback, the capstone project will contribute the addition new functionality 
+including development options for walking/running to the beat of music, connecting to our new 
+life-fit stimulation device, and a new progress tracking/reminders  screen.","Addition new functionality to the Walking Tall Phone App including development options 
+regarding walking/running to the beat of music, connecting to our new life-fit stimulation device, 
+and a potentially a new progress tracking/reminders screen if progress  on the first two features 
+is exceptional .  
+Agile approach. Build the prototype and test in some people living with Parkinson's disease (in 
+collaboration with Walking Tall Health). Gather feedback on the prototype before a second 
+development sprint towards delivery of a functioning (but not necessar ily beautifully finished) 
+phone app.",Mobile phone app development,None,None,P4 - Helping 10 million people with Parkinsons disease walk to the beat of music.pdf
+"Further Development of ""Colour Combo Rush"", aka the UNSW colour vision suite",E/Prof Stephen Dain and A/Prof Mei Boon (University of Canberra),"Software development; System/game development; Human 
+Computer Interaction (HCI) .",6,"One of the problems that limits the possibilities in using computers to examine human colour 
+vision this the huge variety of screens and computers is that the colours produced by any 
+combination of computer and screen may vary considerably.  As a consequen ce, commercially 
+available examination methods use specific computers and screens and have calibration 
+procedures.  This means that the systems can be expensive.   
+A/Prof Mei Boon, I and others established that the colours within a specific model of iPad mini 
+were sufficiently alike that individual calibration was not necessary. 
+https://doi.org/10.3758/s13428-016-0725-1.  We designed a colour vision test app, origina lly 
+intended for examining diabetic children up to the age of about 12 years.  This was in 3 forms, a 
+purely clinical test and versions with two levels of added gaming effects.  We validated and 
+compared these versions https://doi.org/10.1089/g4h.2016.0100  and 
+https://doi.org/10.3758/s13428-017-0893-7.  We then. published the work on the diabetic 
+children https://doi.org/10.1080/08164622.2023.2288176.  There is a further paper in 
+preparation on age changes in colour vision.  
+We have not assessed them, but we assume that there are variations between models as there 
+are between smart phones.  https://doi.org/10.1364/JOSAA.33.00A300.  
+We would now like to extend and improve the app in a number of respects.  
+1.  The current version is designed for acquired colour vision and we would like to add an option 
+to examine congenital deficiencies as well.  The colour part of it is straight forward, requiring a 
+second colour look up table but the program needs to allow  selection and processing of the two 
+procedures.  
+2.  The current version is written for the iPad mini 3.  We would like to app to identify the model 
+and select the appropriate colour look up table (we have all the equipment to make the colour 
+measurements and provide the RGB values) and sizing according to screen size.  
+3.  The current version sends the raw data to a personal UNSW email address (as required by 
+UNSW) but that person has left UNSW and we need to look at other methods of sending and 
+storing the data in a more accessible form  
+4. The current version sends out the raw data, we would like to look at the possibilities of 
+processing and storing the data in the app and, as well as transmitting it, having the option to 
+display it on the screen.  
+5 There are probably some bugs still to be ironed out. .","Programming in order to;  
+1. Extend the scope to congenital colour vision deficiencies  
+2. Run the app on other Apple tablets  
+3. Improve the data processing, communication and storage options . 
+To work with the colour vision researchers to achieve the aims.  Colour vision knowledge is not 
+necessary but some idea of the design and use of colour vision tests may be found in 
+https://doi.org/10.1111/j.1444-0938.2004.tb05057.x","iOS programming essential  
+Gamification knowledge a useful, but not essential, skill .","'An improved app that can be used as a research tool for the examination and tracking of 
+chuman colour vision .",Stephen Dain,"P42 - Further Development of Colour Combo Rush, aka the UNSW colour vision suite.pdf"
+Accelerating Cryptographic Prototyping: A Re-evaluation of the Charm Library,Evan Krul,"Software development; Computer Science and Algorithms; 
+Security/Cyber Security .",7,"This project aims to enable rapid prototyping and evaluation of cryptographic schemes by 
+updating the crypto-charm library (<https://github.com/JHUISI/charm>).  
+ 
+**Background**  
+Cryptographic schemes are behind every single digital interaction.  
+- Websites have SSL certificates issued and digitally signed by a certificate authority.  
+- Traffic between a browser and server is encrypted.  
+- Blockchains rely on signatures and hash functions at their core.  
+ 
+Cryptographic protocols expand on this and describe the interaction between parties.  
+- Browsers and clients exchange encryption keys securely.  
+- Users can sign on to SSH by proving they know the private key that belongs to a public key 
+installed on the server.  
+There is continual research and development into these schemes. For example, recent 
+changes to BBS signatures \[1, 2\] are being proposed to enable privacy-preserving digital 
+driver licenses. This proposal includes a signature scheme and a protocol to pres ent digital 
+identities securely. (If you want to chat more about this, please reach out to me. It is very 
+interesting.)  
+When a cryptographic scheme needs to be implemented, we usually have two options.  
+1. Implement a _production-ready_ library in a low-level language like C or Rust  
+2. Implement a _prototype_library in a high-level language like Python  
+Option 1 is the indisputably correct option if the intent is to distribute the scheme or protocol. 
+Implementing crypto in a low-level language is not easy and comes with many 'foot guns' that 
+must be addressed for the implementation to be 'secure enough' f or production use.  
+Furthermore, a proposed cryptographic scheme is not static. They must be carefully reviewed 
+and updated (i.e., the BBS Signature Draft \[2\] has been under revision since 2022). There is 
+no use in spending the time and effort to implement a _production_ li brary for a non-production-
+ready scheme.  This is where Option 2 plays a key role. Being able to prototype a scheme or protocol in a high-
+level language rapidly means that researchers can quickly publish and evaluate working 
+implementations of their proposals without concerning themselves with the  complex inner 
+workings of programming crypto libraries.","**The Project**  
+In 2011, the crypto-charm library was introduced \[3\] (<https://github.com/JHUISI/charm>) to 
+enable Python implementations of cryptographic schemes/protocols. Charm is an abstraction 
+on top of the same low-level libraries used to implement production-ready crypto.  
+Unfortunately, Charm has fallen out of date, and with no replacement in sight, Charm requires 
+serious TLC.  
+This project aims to create a fork of Charm that addresses its fundamental flaws and makes it a 
+viable library researchers can use for the next decade. This is a unique opportunity to 
+undertake a significant technical challenge – with a wide range of skill s required – while making 
+a meaningful contribution to a heavily relied-on library.  
+The general goals of this project are as follows:  
+1. Address general critical deficiencies in Charm  
+2. Implement a new protocol engine  
+3. Implement support for recent low-level crypto libraries (more recent pairing curves, etc.)  
+4. Update benchmarking  
+5. Update the toolkit with recent schemes for comparisons  
+6. Create updated build profiles for deployment  
+7. Detailed documentation (in code and library usage)  
+The project's scope is adaptable to the student's progress and challenges encountered during 
+the project.  
+Students are encouraged to propose further improvements as they familiarise themselves with 
+the project . 
+\[1\] S. Tessaro and C. Zhu, “Revisiting BBS Signatures UPDATED.” 2023. Accessed: Apr. 24, 
+2024. \[Online \]. Available: <https://eprint.iacr.org/2023/275>  
+\[2\] T. Looker, V. Kalos, A. Whitehead, and M. Lodder, “The BBS Signature Scheme,” Internet 
+Engineering Task Force, Internet Draft draft-irtf-cfrg-bbs-signatures-05, Dec. 2023. Accessed: 
+May 15, 2024. \[Online \]. Available: <https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures>  
+\[3\] J. A. Akinyele, M. D. Green, and A. D. Rubin, “Charm: A framework for Rapidly Prototyping 
+Cryptosystems.” 2011. Accessed: May 15, 2024. \[Online \]. Available: 
+<https://eprint.iacr.org/2011/617>  
+- A fork of the Charm library that addresses, at a minimum:  
+  - Modern building and deployment of the library  
+  - Swappable support of modern low-level crypto libraries    - A protocol engine that does not rely on sockets and is amenable to test-driven-development  
+- Clear documentation of new and existing functionality  
+  - In code is a minimum requirement.  
+  - Further documentation is a plus.","- One group member MUST have some understanding of cryptographic schemes and protocols  
+  - Integer Groups  
+  - Elliptic Curve Groups  
+  - Pairing Curve Groups  
+  - Basic Signature and Encryption schemes  
+- OR One group member MUST have taken:  
+   - MATH1081 (Discrete Mathematics)  
+   - MATH 2400 or MATH3411  
+    - or equivalents  
+- Strong knowledge of Python  
+- Strong knowledge of C  
+- Ability to read and implement academic papers describing a scheme or protocol","The expected outcome is a robust crypto -prototyping library for the next decade.  
+- Source code  
+- Documentation",Evan Krul,P19 - Accelerating Cryptographic Prototyping- A Re-evaluation of the Charm Library.pdf
+Capstone Projects Management Platform,"Dr Basem Suleiman , School of Computer Science and 
+Engineering","Software development /Engineering , Web Application 
+Development .",8,"Capstone projects involve many stakeholders such as students, academics, industry 
+partners and administrators. Supporting the management of capstone projects 
+becomes crucial for large number of projects and stakeholders. This includes 
+streamlining the capstone project process, from project creation and allocation to 
+communication, analytics, and reporting. It aims to enhance the experience of both 
+students and project owners, including academics and industry partners, involved in 
+capstone projects.   
+ 
+This project can involve multiple teams who are willing to work under one project and 
+share a technology infrastructure and environment. Detailed features (including the 
+ones listed below) will be discussed and distributed among different teams. Allocated 
+teams should work as one team and under one project.","The goal of this project is to design and implement a Web application to support the 
+management of capstone projects. This includes designing optimal and intuitive 
+processes for the capstone projects, from project creation and allocation to 
+communication, analytics, and reporting. The processes, which will be design and 
+implemented as part of this project, to enhance stakehold ers’ experience, including 
+academics and industry partners. The core features of this platform include  the 
+following (additional and more detailed requirements will be discussed with allocated 
+teams)  
+• User roles and profiles: a dministrator  users, s tudents , project clients (e.g., 
+academics, industry partners), coordinators and tutors.  
+• Project clients to create and maintain projects, view students’ preferences,  
+• Students maintaining their profiles and preferences.   
+• Students forming groups and choosing project preferences.  
+• Coordinator and tutors can facilitate groups and projects.  
+• Students communicate with project clients and coordinators and tutors.  
+• Coordinators and tutors o versee and approve project allocations.  
+• Integrated messaging for students and project owners to communicate.  
+• Notifications for project updates, messages, and allocation results . • Generati ng reports on project allocation, student preferences, and project 
+outcomes.  
+• Dashboard management of groups and projects","• Familiarity with web application development (front-end and back-end) 
+o Technology stack can be flexible – e.g., MEAN stack.  
+• Familiarity with web development and testing frameworks and practices  
+• Familiarity with database design and management for storing data  (e.g., 
+NoSQL)   
+• Familiarity with UI/UX principles and implementation  
+• Familiarity with Agile software development methods, practices,  and tools  
+• Familiarity with software testing , building and deployment.","• Project documentation including source code, system architecture and design, 
+UI/UX, different types of testing, user manuals and guide, technical guide.  
+• Responsive Web application which is accessible on various devices, e.g., 
+tablets and smartphones.",None,P37 - Capstone Projects Management Platform.pdf
+Workload Allocation Software for all Engineering Schools,Ellie Williams,Software development; Security/Cyber Security .,9,"Currently, each school in Engineering has their own system of managing workload allocation for 
+their academics and casual academics - they range from spreadsheets through to databases 
+that require a strong level of SQL knowledge to maintain. It would be highly beneficial for all 
+schools to have a single piece of software that is user friendly (ie doesn't require coding/SQL 
+knowledge to enter information ) that can also be personalised for each school (ie each school 
+can enter their own workload formula to generate hours for their staff). It would need to hold a 
+large amount of personal data (so it would need to be secure) but easy to enter and extract 
+information .","It would be ideal if it could feed directly into CASTLE (the casual academic timesheet system) 
+to generate teaching hours for casual academics, however this isn't vital, as long as there would 
+be a way to export the data in csv format.  
+Software that is user-friendly, that can be maintained long term by UNSW IT support. Active 
+data would not be shared during the development stage - dummy data will be provided for the 
+establishment of the project.","Software development, understanding of cybersecurity.","Functional software, user guides .",Ellie Williams,P15 - Workload Allocation Software for all Engineering Schools.pdf
+Enhancing Code Security with AI-Driven Vulnerability Detection and Explanation,Dipankar Chaki and Helen Paik,"Software development; Artificial Intelligence (Machine/Deep 
+Learning, NLP); Security/Cyber Security .",1,"In the digital age, software security is a critical concern, with vulnerabilities posing significant 
+risks. This capstone project aims to harness the power of Artificial Intelligence (AI) and Large 
+Language Models (LLMs) to create an innovative tool that revolutionizes how developers 
+understand and fix vulnerabilities in  their code. Utilizing CodeBERT, a state-of-the-art LLM 
+specifically designed for understanding programming languages, this project will develop a 
+system that not only identifies potential security vulnerabilities in source code but also provides 
+clear, un derstandable explanations of these issues. The aim of this project is to empower 
+developers with an AI assistant that enhances code safety while educating them on best 
+security practices, thereby fostering a culture of proactive security mindfulness .","Programming Languages: The tool will support essential languages such as C/C++, Python, 
+and Java, covering a broad spectrum of software development scenarios.  
+Tools and Technologies: The project will leverage CodeBERT for its powerful code 
+comprehension capabilities. We will utilize Python to handle backend development and 
+integrate with advanced Machine Learning (ML) and Deep Learning (DL) frameworks like 
+PyTor ch or TensorFlow to optimize and manage the AI models.  
+Development Stages: The project involves multiple phases, including the initial setup of the AI 
+environment, the fine-tuning of CodeBERT to adapt to specific types of code vulnerabilities, the 
+development of a user-friendly VS Code extension, and extensive  testing to ensure the tool's 
+reliability and ease of use in a real-world development setting . 
+Model Training: Fine-tuning the pre-trained CodeBERT model requires adjusting its parameters 
+to specialize in detecting and explaining specific code vulnerabilities. This task will involve 
+manipulating training hyperparameters such as learning rate, batch size, and epoch count to 
+refine the model's accuracy and performance. This stage will leverage DL techniques to train 
+the model effectively on a curated dataset of annotated code samples.  
+Interface Development: Developing a seamless and intuitive plugin for Visual Studio Code, 
+which will allow users to analyse code directly within their development environment. This 
+plugin will interact with the AI model to provide real-time feedback and ex planations, enhancing 
+the developer's ability to quickly understand and rectify software vulnerabilities.  
+Testing and Validation: Ensuring the tool's effectiveness through comprehensive testing, 
+including automated unit tests to confirm each component's functionality and user acceptance testing to gauge the tool’s practical utility. Feedback from these tests will be crucial in iterating 
+and improving the tool's design and functionality.","Required Skills:  
+Programming Proficiency: Advanced proficiency in Python is essential for handling the backend 
+development and AI integration tasks. This skill is crucial as Python serves as the backbone for 
+most machine learning operations and scripting within this projec t. 
+Machine Learning Knowledge: A strong foundation in ML and DL, especially in natural language 
+processing and neural networks, is crucial. Hands-on experience with ML frameworks like 
+PyTorch or TensorFlow is required to effectively manage the AI models' trai ning and operational 
+phases.  
+Data Handling: Effective skills in data manipulation and analysis are necessary to manage and 
+preprocess datasets during the AI model training phase. This includes cleaning, structuring, and 
+optimizing data inputs to ensure that the model training is effic ient and productive.  
+Desired Skills/Good to Have:  
+Security Basics: While not strictly necessary, having a fundamental understanding of common 
+software vulnerabilities and security practices would greatly benefit students in implementing 
+and testing the AI model's vulnerability detection capabilities.  
+VS Code Extension Development: Familiarity with developing extensions for Visual Studio 
+Code is highly desirable. Knowledge of the VS Code API and the ability to integrate complex 
+functionalities within the VS Code environment would enhance the project’s i mplementation and 
+user experience but is not required for initial participation in the project.","Source Code: Fully functional source code for both the AI model's training algorithms and the 
+VS Code extension.  
+Documentation: Comprehensive documentation that details every aspect of the project, from 
+system architecture and AI model configurations to step-by-step setup and usage instructions.  
+User Guide: A detailed guide providing clear instructions on how to install and efficiently use the 
+VS Code extension. This guide will include troubleshooting tips and user FAQs to assist 
+developers in leveraging the tool to its fullest potential.  
+Final Report: An in-depth report documenting the entire project process, from conception 
+through development to final testing. The report will evaluate the tool's impact on improving 
+code security and developer practices.  
+Presentation: A polished presentation designed to showcase the project's innovative features, 
+demonstrate its functionality within the VS Code environment, and highlight the practical 
+applications and benefits of integrating AI into software development wo rkflows .",Dipankar Chaki,P24 - Enhancing Code Security with AI-Driven Vulnerability Detection and Explanation.pdf
+A web based digital twin platform for sustainability analysis,Mohsen Kalantari,Web application development .,2,"This project aims to customize  an open-source digital twin platform to spatially map the carbon 
+footprints and greenhouse emissions of various industries in Australia .","You will work on customising TerriaJS, an open-source framework for web-based geospatial 
+catalogue explorers. https://docs.terria.io/guide/ . 
+Deploy TerriaJS  
+Integrate greenhouse gas emissions data with land use data of Australia  
+Publish the integrated data via TerriaJS  
+Develop analytical and visualisation options","TerriaJS can be extensively customized, often without writing any code. JSON configuration 
+files control the catalogue and many aspects of the look and feel .",A web-based mapping system deployed in a UNSW server .,Mohsen Kalantari,P31 - A web based digital twin platform for sustainablity analysis.pdf
+CSE HDR student travel tracking system,Arjun Radhakrishnan,Software development; Computer Science and Algorithms .,3,"This proposal outlines the development of a Travel tracking software system designed to 
+streamline and optimize the travel processes involved for the traveling HDR students in the 
+CSE. The primary objective is to create an intuitive, efficient, and scalable solution that ensures 
+identification of bottlenecks and changes to travel policies in the future while meeting user 
+needs and preferences. CSE expects an outcome in this project whereby we receive a software 
+that provide a streamlined and easy solution to  get budget approval, track expenses and 
+record remaining balance of student funds as they initiate the travel plans through the UNSW 
+travel partner (FCM Travels) . 
+ 
+Project goals  
+ 
+• Travel Tracking: Develop a system to track the process of students getting the travel 
+itineraries prior to the budget approval from the supervisors.   
+• Budget Management: Implement a budgeting module to identify the fund code associate d with 
+the student, record the amount allocated, monitor, and manage the remaining balance available 
+within their budget for each student. The same applies to a travelling academic.   
+• User-Friendly Interface: Create an intuitive interface for travelers, managers, and 
+administrators to easily manage travel plans and budgets.  
+• Integration Capabilities: Ensure the software integrates with existing financial systems, HR 
+systems, and can have capabilities to share the same information to the school as well as  the 
+travel booking platform if need be.  
+• Reporting and Analytics: Provide comprehensive reporting and analytics tools to help CSE 
+monitor travel expenses, segregate them within each supervisor, and make informed decisions.","An easy to access tracking system that will help track the budget allocation and funds 
+availability for HDR students.  
+In Scope  
+- CSE HDR student s  
+Scope of Work and deliverables  
+3.1. Requirements Analysis  
+• Stakeholder Interviews: Conduct interviews with potential users to understand their 
+needs and preferences.  • Use Case Development: Develop detailed use cases to capture functional and non -
+functional requirements.  
+• Technical Feasibility Study: Assess the technical requirements and feasibility of 
+integrating with existing systems.  
+3.2. System Design  
+• Define the system architecture, including data flow diagrams, plans to integrate database 
+with existing database if needed, develop prototype focusing on ease of use  and accessibility 
+for users with a range of technical capabilities.  
+• Consider constraints like travel policies, budget availability, etc.  
+3.3. Development  
+• Backend Development: Implement the server-side logic, database management, and API 
+integrations.  
+• Frontend Development: Develop the user interface that can be easily integrated to 
+existing university systems and that requires minimal upgrades.  
+• Integration: Integrate the system with existing tools such as finance systems, and travel 
+management systems 3.4. Testing  
+• Unit Testing: Test individual components for functionality and reliability.  
+• System Testing: Conduct end-to-end testing to ensure all components work seamlessly 
+together.  
+• User Acceptance Testing (UAT): Engage with a sample group of end-users to validate 
+the system’s functionality and usability.  
+3.5. Deployment  
+• Stage 1: Deploy the system final testing and validation by users (CSE Admin).  
+• Stage 2: Launch the system for all users to use once testing is final.  
+• Training & Documentation: Provide comprehensive training sessions and documentation 
+for end-users (CSE admin team).  
+3.6. Maintenance and Support  
+• Training: Provide access and training for select staff to manage the system.  
+• Updates and Enhancements: Provide a detailed document on possible updates the 
+system may need to undergo for the next five years. Include CSE staff to supervise the 
+documentation.","Technical Skills  
+Software Development  
+Programming Languages  
+• Proficiency in languages such as Python, Java, JavaScript, or similar.  
+• Web Development: Knowledge of HTML, CSS, and JavaScript frameworks (e.g., React, 
+Angular, Vue.js).  Backend Development  
+• Server-Side Languages: Proficiency in languages such as Node.js, Django (Python), 
+Ruby on Rails, or similar.  
+• Database Management: Skills in SQL and experience with databases like MySQL, 
+PostgreSQL, MongoDB, or similar.  
+• API Development: Experience in developing RESTful and/or GraphQL APIs.  
+Frontend Development  
+• UI/UX Design: Skills in creating intuitive and user-friendly interfaces.  
+• Frontend Frameworks: Experience with frameworks like React, Angular, or Vue.js.  
+• Integration  
+• API Integration: Experience with integrating third-party services and APIs (e.g., Google 
+Calendar, Microsoft Outlook).  
+• Middleware: Knowledge of middleware technologies for smooth integration.","- The finished product is expected to be utilised for the long -term hence the knowledge of the 
+source code shall be shared with the UNSW central IT team or CSE team.  
+ - Training resources for staff/ training to select staff who could train the rest of the team",Arjun Radhakrishnan,P22 - CSE HDR student travel tracking system.pdf
+Emotion Recognition Software,Gelareh Mohammadi,"Software development; Artificial Intelligence (Machine/Deep 
+Learning, NLP); Human Computer Interaction (HCI); Computer vision.",4,"My research is on emotion recognition from multimodal data: face, audio, and physiology. 
+Therefore, my team develops algorithms that can already do this task if the data from all such 
+sensors are available. However, I would like to develop software that ca n collect all that data in 
+a synchronised way during an interaction and utilise the developed algorithms to make online 
+predictions about the user's emotions. If the scope is too broad for the course, I am open to 
+reducing the scope and gradually add to th e system over several terms.","Developing a desktop or web-based software to collect data from a camera, microphone and 
+smartwatch and detect emotions for a pre-defined scenario (e.g. watching emotional videos) 
+using an algorithm from my group or an off-the-shelf emotion recognition algorithm.  
+Hardware Requirements: (which I will provide)  
+Camera: The software needs to be compatible with webcams or other types of cameras 
+capable of capturing facial expressions.  
+Microphone: Support for microphones to capture audio data.  
+Smartwatch or some physiolo gy sensors: Compatibility with smartwatches capable of collecting 
+physiological data related to emotions, such as heart rate variability (HRV).  
+ 
+Software Platform:  
+Desktop or Web-based: At this stage, I prefer to go with a desktop  
+ 
+Data Collection:  
+Integra tion with camera, microphone, and smartwatch APIs: Develop modules to capture data 
+streams from these devices.  
+Data synchronization: Ensure synchronized collection of data from different sources (camera, 
+microphone, smartwatch) for accurate analysis.  
+ 
+Emot ion Recognition Algorithm: (this will be provided or off-the-shelf algorithms can be used)  
+considering the requirements of the deployed algorithm in data processing  
+ 
+User Interface:  
+Intuitive Design: Develop a user-friendly interface for data input, visual ization of collected data, 
+and presentation of emotion detection results.  
+Compatibility: Ensure compatibility with the screen size  
+ 
+Testing and Validation:  Functional Testing: Conduct thorough testing to ensure the proper functionality of all features, 
+including data collection, synchronisation, processing, emotion recognition, and user interface 
+interactions.  
+Performance Testing: Evaluate the software's perf ormance in terms of speed, accuracy, and 
+resource utilization.  
+User Feedback: Gather feedback from users to identify areas for improvement and refinement.  
+ 
+Documentation and Support:  
+User Manual: Prepare comprehensive documentation to guide users on how to  use the 
+software effectively.  
+ 
+Deployment and Distribution:  
+ 
+Compatibility: Ensure compatibility with Windows O S","- Software Engineerin g 
+- Knowledge of HCI principles and user experience (UX) design concepts to develop an 
+intuitive and user -friendly interface for the software.  
+- Understanding of usability testing methodologies and techniques to gather feedback and 
+iteratively improve the user interface design.  
+- Familiarity with hardware APIs and SDKs for integrating data collection from cameras, 
+microphones, and smartwatches into the software.  
+- some familiarity with machine learning and data analysis",A software and the relevant documentation,Gelareh Mohammadi,P7 - Emotion Recognition Software.pdf
+Voice-based interface for NLP models,"Aditya Joshi  
+Number of Groups:  2",None,5,"NLP systems may use conversation agents, sentiment analyzers, hate speech detection, and 
+so on. NLP researchers often fine tune their own models for various tasks. We would like to 
+have a voice-based interface for such Transformer-based models.  
+ 
+Goals:   
+1) To create a voice-based interface for text-based (i.e., NLP) models.  
+2) To test the interface with two scenarios: (a) speakers that use different dialects, (b) multiple 
+speakers interacting with the system.  
+ 
+We hope to use the interface in our ongoin g research on NLP for dialects of English, funded by 
+Google Research.","• The project will focus on NLP models for English.  
+• The project can use HuggingFace models for text only.  
+• The response time should be reasonable.  
+• Evaluation with a set of users who use different dialects of English, and with a set of users 
+engaged in a conversation or parallel talk.  
+• The project can use black-box models for transcription.  
+The voice-based interface will be available as a web-based interface that uses the microphone on 
+the user's device to record the audio and  allows the user to select a particular model (For example: 
+""Sentiment Analysis"") from among a set of available models. The interface will then convert the 
+audio to text and  use an NLP-based model to obtain the inference. The output will be produced on 
+the screen either as text or as audio.  
+ 
+The project will enable the students to design an NLP system that effectively int egrates different 
+NLP/speech processing models, and tests them in a web-based setting. The test setting will help 
+the students understand the effectiveness of their system. The students may target an NLP demo 
+paper at the end of the course, if that is of i nterest to the team.","The students should be able to use transformer-based models. Fine-tuning skills are good but not 
+essential. The students should be able to create web-based interfaces that receive text and audio as 
+input and produce the same as output.","• Open-source code  
+• Documentation  
+• User guide to configure the interface for new models.",Aditya Joshi,P1 - Voice-based interface for NLP models.pdf
+Predicting contaminant degradation in groundwater using machine learning,Professor Michael Manefield,"Artificial Intelligence (Machine/Deep Learning, NLP); 
+Bioinformatics/Biomedical; Big data analytics and visualization.",6,"Bacteria degrade pollutants. It is difficult to predict degradation rates. This project explores the 
+potential of machine learning to predict pollutant degradation rates using biogeochemical data 
+including physical data, chemical data and DNA sequence data .","Data from a large field site will be collated and used to train machine learning models to 
+associate features with pollutant degradation.  
+Just need some bright minds with machine learning experience.",Machine learning experience,Models that can predict pollutant degradation from biogeochemical data .,Professor Michael Manefield,P14 - Predicting contaminant degradation in groundwater using machine learning.pdf
+APRA regulatory reporting automation,"Alan Hsiao ,","Web application development;  Software development;  Cloud 
+computing;  Big data analytics and visualization;  Knowledge Graph . 
+Background:   
+APRA regulatory reporting is a complex and costly compliance burden for all banks.  
+The process of managing regulatory requirements and updates over time is a time consuming 
+and error prone process. The challenge is a unique one as the Australian banking regulator  
+(APRA) must harmonise data definition across over 100 financial institutions.  
+Due to the complexity and inefficiency of this process, it has been a challenge for APRA to roll 
+out additional regulatory returns, hampering its prudential governance capability as well as 
+limiting the granularity of some of Australia's economic data made  available to the Australian 
+Bureau of Statistics. The ability to generate new economic data and metrics is crucial for 
+economic planning purposes within the Australian government.",7,"APRA regulatory reporting is a complex and costly compliance burden for all banks.  
+The process of managing regulatory requirements and updates over time is a time consuming 
+and error prone process. The challenge is a unique one as the Australian banking regulator  
+(APRA) must harmonise data definition across over 100 financial institutions.  
+Due to the complexity and inefficiency of this process, it has been a challenge for APRA to roll 
+out additional regulatory returns, hampering its prudential governance capability as well as 
+limiting the granularity of some of Australia's economic data made  available to the Australian 
+Bureau of Statistics. The ability to generate new economic data and metrics is crucial for 
+economic planning purposes within the Australian government.  
+Number of groups: 3","The goal is to develop a method for managing data definitions, logic and transformations across 
+all regulatory returns and simplify the regulatory compliance process for banks.  
+Requirements:  
+1. Develop a method to automatically catalogue APRA regulatory requirements (https://sbr-
+pet.apra.gov.au/ARF/ARF.html)  
+3. Develop a logical data model (regulatory data model) which is fit for purpose for all regulatory 
+reports. The logical data model should be implemented as a knowledge graph (Stardog)  
+3. Develop a method to autom ate the generation of data transformation code (in SQL) from the 
+regulatory data model to the output report formats. (using DBT)","Data modelling in both ER and graph techniques.  
+Web content scraping  
+Knowledge Graph programming and notation (RDF, TTL, Sparql)  
+SQL (DBT)  
+Cloud data lake platforms (Databricks Lakehouse)","A knowledge graph mapping out APRA reporting form specifications.  
+A web user interface to visualise the knowledge graph.  
+A method to specify data transformations that can be translated into executable ELT code in 
+DBT",Alan Hsiao,P9 - APRA regulatory reporting automation.pdf
+EcoM Platform for the FinTech Industry,"Prof. Fethi, Mingqin Yu, Dr. Basem Suleiman.","Software development; Web application development; Big data 
+analytics and visualization .",5,"The EcoM platform is designed to assist corporations and investors in ESG (Environmental, 
+Social, Governance) reporting and metrics management. The platform aligns with global 
+initiatives such as the Paris Agreement, UNEP FI, IFRS, and TCFD, providing tools for 
+sustainable investing .","The EcoM project aims to develop a comprehensive web application with a robust API and a 
+user-friendly front-end interface. The application will enable users to manage and analyze ESG 
+data, select ESG frameworks, adjust metrics' weights, and generate detailed repor ts. 
+The EcoM project aims to develop a comprehensive web application with a robust API and a 
+user-friendly front-end interface. The application will enable users to manage and analyze ESG 
+data, select ESG frameworks, adjust metrics' weights, and generate detai led reports.  
+Key Features and API Requirements  
+1. Single Mode  
+Functionality : Users can choose one industry and one company from a database including 
+S&P 500 and ASX 200 companies, like CommBank and Westpac.  
+API Needs : Endpoint to fetch industries and companies. Endpoint to retrieve ESG data for a 
+selected company. Secure access to data with authentication and authorization mechanisms.  
+Front-End Requirements:  User interface for selecting industries and companies. Display of 
+ESG data for the selected company.  
+2. Comparison Mode  
+Functionality : Allows comparison of multiple companies across various industries.  
+API Needs:  Endpoint to fetch comparison data for selected companies. Endpoint to calculate 
+and return comparative metrics. Efficient data querying and processing.  
+Front-End Requirements:  Interface for selecting multiple companies and industries. 
+Visualization tools for comparing ESG metrics.   
+3. Select Framework  
+Functionality:  Users can choose or customize ESG frameworks (e.g., IFRS S1, IFRS S2, 
+TCFD, TNFD, APRA-CPG).  
+API Needs: Endpoint to list available frameworks and their details. Endpoint to customize and 
+save user-defined frameworks. Data validation for metric consistency and accuracy.  
+Front-End Requirements:  Interface for selecting and customizing ESG frameworks. Display of 
+framework details and metrics.  
+ 
+4. Subjective Weighting  
+Functionality:  Users can assign weights to categories and metrics and visualize details.  
+API Needs:  Endpoint to submit and retrieve user-defined weights. Data processing to apply 
+weights and calculate weighted scores. Endpoint for visualization data.  
+Front-End Requirements:  Interface for assigning weights to metrics. Visualization of weighted 
+metrics and scores.  
+ 
+5. Download Report  
+Functionality: Users can download comprehensive ESG reports.  
+API Needs:  Endpoint to generate and export reports in various formats (PDF, Excel). 
+Integration with reporting tools and libraries. Endpoint to handle user-specific report preferences 
+and templates.  
+Front-End Requirements:  Interface for generating and downloading reports. Customizable 
+report templates.  
+ 
+6. Chat Feature  
+Functionality:  Integration with ChatGPT API for a chatbot interface.  
+API Needs : Endpoint to handle chat queries and responses. Secure integration with OpenAI's 
+ChatGPT API. Logging and monitoring for user interactions.  
+Front-End Requirements:  Chatbot interface for user queries. Display of chatbot responses 
+and interactions.  
+ 
+Innovative Features  
+1.Real-time ESG Score Updates  
+Functionality : Provides live updates on ESG scores based on the latest data.  
+API Needs : WebSocket or long-polling endpoints for real-time data push.  
+Front-End Requirements : Interface for displaying real-time updates and notifications.  
+ 2. Predictive Analytics  
+Functionality : Uses machine learning to predict future ESG scores and trends.  
+API Needs : Endpoints to handle ML model training, predictions, and result retrieval.  
+Front-End Requirements : Visualization tools for displaying predictive analytics.  
+ 
+Database and Data Sources  
+The project will use the Clarity AI ESG Risk —Raw Data on Corporations database from 
+EUROFIDAI, covering 105 metrics in environmental, social, and governance domains.","Software Development/Engineering, Web Application Development, Big Data Analytics and 
+Visualization .","Source Code : Documented codebase and a recorded demo.  
+Documentation : Comprehensive project documentation, including requirements, architecture, 
+design, workflows, data models, and user guides.  
+Challenges : Section detailing encountered challenges and solutions.",Mingqin Yu,P39 - EcoM Platform for the FinTech Industry.pdf
+Electronic consent form,Katariina Pakarinen,"Computer hardware and networks; Software 
+development ;Mobile application development; Cloud computing; Security/Cyber Security",2,"All new patients at the UNSW Optometry Clinic are required to sign a consent form when 
+attending their initial appointment. In this form the patients are consenting/or not consenting to 
+the following things 1) Consent to use de-identified data in research 2) Consent to be contacted 
+to participate in research 3) Consent to be seen/tested by an optometry student.  
+ 
+At the moment, the patients complete and sign a consent that it is in a paper form, that 
+reception scans, emails and attaches to the patient record  in our patient management system 
+SUNIX. This process is too manual and time consuming and we would like to streamline this. 
+Our idea is for the patients to complete the consent form using an ipad, and we are hoping to 
+export the consent form directly to t heir patient record or at least to the clinic inbox or a specific 
+drive where the document can be further attached to their patient file.  
+ 
+The data is highly sensitive (patient data) and cyber security and legal may need to be included 
+in this project.","To be added once supplied by the client also can be 
+discussed/clarified with the client in the first meeting.","To be added once supplied by the client also 
+can be discussed/clarified with the client in the first meeting.","To be added once supplied by the client also 
+can be discussed/clarified with the client in the first meeting.",Katariina Pakarinen,P33 - Electronic consent form.pdf
+Verifiable Credentials: The Future of Digital Identity in Action,Evan Krul,"Software development; Web application development; Mobile 
+application development; Security/Cyber Security; Human Computer Interaction (HCI).",9,"This project aims to implement a complete and extensible digital credential system.  
+ 
+**Background**  
+Digital identity no longer refers to usernames and passwords associated with some website. 
+Our _traditional_ identities are being digitized at an unprecedented rate. Digital driver's licenses 
+in NSW have already been available for a few years. This project  addresses the challenges of 
+digitizing these _traditional_ identity documents.  
+As a user, there are two factors to consider when moving to a digital identity. First, we must be 
+issued a digital ID (e.g., through the Service NSW app). Second, we must be able to use our 
+digital identity.  
+The use of an identity means being able to present it to some other party. For example, 
+presenting a driver's licence to a bar to prove you are over 18, presenting the same driver's 
+licence to a car rental agency, or providing documents when opening a bank  account.  
+ 
+We use the following terms:  
+- Identity Owner: who the identity is for (e.g., You)  
+- Issuer: who issues the identity (e.g., NSW Government)  
+- Service Provider: the entity that needs to collect identity documents (e.g., bar, car rental 
+agency)  
+ 
+The current approach to providing this functionality is centralized:  
+- The NSW Government stores a record of your license in their database  
+- You can log into the Service NSW app. The app will contact the government server and 
+display your credentials.  
+- If you want to share a credential with some service provider, you 'request' that the servers of 
+the NSW government will share your identity information with the service provider.  
+ 
+This centralized identity management system approach has some key fatal flaws. The concentration of power that the NSW Government has acts as a single point of failure. For you 
+to use your identity, the government servers have to be online and act on your behalf to share 
+the identity.  
+Furthermore, the government is informed every time you use your identity. Do you want the 
+government to know what your favourite bar is? Surely not.  
+The sharing of identity data with the service provider is also problematic. Oversharing of 
+information leads to catastrophic data breaches (Medibank, Optus, etc.). A bar does not need 
+my name and address to know I am over 18, yet the current digital identi ty implementations 
+share this with them. Additionally, a bar also should not be able to track my visits by linking the 
+presentations of my identity.  
+In response to these concerns, a new identity paradigm has emerged: Self-Sovereign Identity 
+(SSI).   
+SSI aims to revolutionize identity management by empowering individuals to take control of 
+their digital identity and not rely on a centralized authority \[1\]. 
+The essence of SSI lies in the issuance and verification of user credentials. These credentials, 
+issued by trusted entities, attest to the authenticity of a particular attribute of a user's identity. By 
+holding the credentials, users eliminate reliance on third-party data custodians, reduce the 
+potential for data breaches, and ensure they retain control over their identity.  
+Simply put, instead of storing our digital identity on the NSW Government servers, we store the 
+credentials in a wallet on our devices. Now the process becomes:  
+- The NSW Government sends me a digital credential of your license  
+- The Driver's License credential is stored in a wallet app on your phone  
+- If you want to share a credential with some service provider, you choose to share the 
+credential stored on your device with them.  
+You have sovereign control over the use of your identity. The credentials are signed by the 
+issuer with a digital signature so that when a credential is presented to a service provider, it can 
+be verified (hence the name Verifiable Credentials). For more d etails, see Sections 1 and 2.1 of 
+this paper: <https://arxiv.org/pdf/2404.06729>.  
+We can also expand verifiable credentials (Selective disclosure Section 3.2.1, Unlinkability 
+Section 3.2.2 in <https://arxiv.org/pdf/2404.06729>) .","**The Project**  
+This project aims to develop a comprehensive end-to-end SSI implementation to serve as a 
+basis for future implementations and evaluations.  
+There is no solid, open-source, extensible, and up-to-date implementation of a complete SSI 
+identity system. Having this in place would allow the demonstration and communication of SSI. 
+Implementation of the extensions (i.e., Selective Disclosure) would hi ghlight the privacy benefits 
+of SSI. The outcome of this project would be to provide a functional baseline implementation of 
+a complex and interconnected multi-party system. The project promises a wide range of 
+technical challenges, from protocol design an d implementation to library creation and UI/UX 
+considerations in the wallet application.  
+Good software engineering principles are key, as this project must be easily extensible to aid in 
+the evaluation of further research in SSI.  
+ 
+ The general goals of this project are as follows:  
+1. Implement the complete lifecycle of credentials:  
+    1. An agent library/application for issues to issue credentials  
+    2. An agent and wallet (app or website) for identity owners to store and use their credentials  
+    3. An agent library for service providers to collect credentials  
+2. Support of Selective Disclosure when presenting credentials  
+3. Support of Unlinkability when presenting credentials  
+4. Sample implementations to demonstrate and evaluate, e.g., A car rental collecting a driver's 
+license and a bar verifying age from the same verifiable credential.  
+5. Possible support of _Identity Escrow_  
+    1. More on this if you take the project, but it would require a fourth library/agent 
+implementation  
+The project's scope is adaptable to the student's progress and challenges encountered during 
+the project.  
+The end goal is a demo application that demonstrates the life-cycle of SSI credentials and 
+supports selective disclosure, unlinkability, and potentially identity escrow.  
+[1] C. Allen, “The Path to Self-Sovereign Identity.” Accessed: May 02, 2023. [Online]. Available: 
+<https://www.lifewithalacrity.com/article/the-path-to-self-soverereign-identity/>  
+- The agents must be extensible, being able to support any format of credential + signature 
+scheme  
+- Align as much as possible to existing standards being developed 
+(<https://arxiv.org/pdf/2404.06729> Table 2).  
+This includes:  
+  - Credential Format  
+  - Verification Mechanisms  
+  - Protocols between parties  
+  - etc. 
+- Clear documentation and clean code","- Software Engineering (extensible design is a must)  
+- Library design/implementation  
+- Protocol design/implementation  
+- Either app or web development  
+- Optionally: Docker","- Agent/Library for Issuers  
+- Agent/Library for Service Providers  
+- Agent/Library + Wallet for Identity Owners  
+- Full integration of the agents + wallet  
+- Demo application showing the lifecycle of a credential  
+- Optionally: Agent/Library + protocols for Identity Escrow .",Evan Krul,P18 - Verifiable Credentials- The Future of Digital Identity in Action.pdf
+CSE space allocation management system,Arjun Radhakrishnan,Software development; Computer Science and Algorithms .,3,"1. About the project  
+This proposal outlines the development of a Space Allocation Software System designed to 
+streamline and optimize the allocation of physical spaces within K17, CSE. The primary 
+objective is to create an intuitive, efficient, and scalable solution that ensures optimal utilization 
+and future changes to the available spaces while meeting user needs and preferences. There 
+are three aspects that CSE wishes  the project would focus on:  
+i. CSE Meeting and Board Rooms space booking system (an upgrade from the current 
+system that uses MS Outlook)  
+ii. Hot desk allocation  
+iii. New staff space allocation  
+ 
+2. Project Objectives/ Goals  
+• Efficient Space Utilization: Develop a software to capture the available spaces at K17 
+building including Meeting Rooms,  based on specific criteria such as size, usage, and 
+availability.  
+• Space allocation: Individual space allocation for staff who are using hot desks in level 3 
+area. Provide support to CSE admin team to allocate space for new staff joining.  
+• User-Friendly Interface: Create an intuitive interface that allows users to easily manage 
+and request space allocations.  
+• Integration Capabilities: Ensure the software can integrate with existing systems like MS 
+Teams, MS Outlook and the UNSW website.  
+• Data Analytics: Provide reporting and usage data that aids in continuous improvement. .","Provide a space allocation management system that CSE staff can use to  
+i. Book meeting rooms and board Rooms (an upgrade from the current system that uses MS 
+Outlook)  
+ii. Hot desk allocation for staff  
+iii. New staff space allocation which will be carried out by admin staff.  
+3. Scope of Work and deliverables  3.1. Requirements Analysis  
+• Stakeholder Interviews: Conduct interviews with potential users to understand their 
+needs and preferences.  
+• Use Case Development: Develop detailed use cases to capture functional and non-
+functional requirements.  
+• Technical Feasibility Study: Assess the technical requirements and feasibility of 
+integrating with existing systems.  
+3.2. System Design  
+• Define the system architecture, including data flow diagrams, plans to integrate database 
+with existing database if needed, develop prototype focusing on ease of use  and accessibility 
+for users with a range of technical capabilities.  
+• Consider constraints like occupancy, scheduling conflicts, and user preferences.  
+3.3. Development  
+• Backend Development: Implement the server-side logic, database management, and API 
+integrations.  
+• Frontend Development: Develop the user interface that can be easily integrated to 
+existing university systems and that requires minimal upgrades.  
+• Integration: Integrate the system with existing tools such as MS Outlook, MS Teams and 
+facility management systems (further information provided once the quote for the new AV 
+system is approved).  
+3.4. Testing  
+• Unit Testing: Test individual components for functionality and reliability.  
+• System Testing: Conduct end-to-end testing to ensure all components work seamlessly 
+together.  
+• User Acceptance Testing (UAT): Engage with a sample group of end-users to validate 
+the system’s functionality and usability.  
+3.5. Deployment  
+• Stage 1: Deploy the system final testing and validation by users (CSE Admin).  
+• Stage 2: Launch the system for all users to use once testing is final.  
+• Training & Documentation: Provide comprehensive training sessions and documentation 
+for end-users (CSE admin team).  
+3.6. Maintenance and Support  
+• Training: Provide access and training for select staff to manage the system.  
+• Updates and Enhancements: Provide a detailed document on possible updates the 
+system may need to undergo for the next five years. Include CSE staff to supervise the 
+documentation.","Technical Skills  
+Software Development  
+Programming Languages  
+• Proficiency in languages such as Python, Java, JavaScript, or similar.  
+• Web Development: Knowledge of HTML, CSS, and JavaScript frameworks (e.g., React, 
+Angular, Vue.js).  
+Backend Development  
+• Server -Side Languages: Proficiency in languages such as Node.js, Django (Python), 
+Ruby on Rails, or similar.  
+• Database Management: Skills in SQL and experience with databases like MySQL, 
+PostgreSQL, MongoDB, or similar.  
+• API Development: Experience in developing RESTful and/or GraphQL APIs.  
+Frontend Development  
+• UI/UX Design: Skills in creating intuitive and user-friendly interfaces.  
+• Frontend Frameworks: Experience with frameworks like React, Angular, or Vue.js.  
+• Integration  
+• API Integration: Experience with integrating third-party services and APIs (e.g., Google 
+Calendar, Microsoft Outlook).  
+• Middleware: Knowledge of middleware technologies for smooth integration.","- The finished product is expected to be utilised for the long-term hence the knowledge of the 
+source code shall be shared with the UNSW central IT team or CSE team.  
+ - Training resources for staff/ training to select staff who could train the rest of the team",Arjun Radhakrishnan,P20 - CSE space allocation management system.pdf
+CALDtalk: Overcoming language barriers in our community,Sonit Singh,"Software development; Web application development; Mobile 
+application development; Artificial Intelligence (Machine/Deep Learning, NLP) .",4,"Australia has a rich diversity in population with individuals coming from culturally and 
+linguistically diverse backgrounds (refers CALD in short). Across many industries such as 
+healthcare, aged care, and government services, we need help of professional interpreters as 
+these people do not speak English well. Having a professional interpret readily available always 
+is not feasible and it is expensive. To overcome language barriers in our community, there is a 
+need to have an app which can translate languages and provide equitable services .","The aim of the project is to develop an app using artificial intelligence technologies such as 
+automatic speech recognition such as OpenAI Whisper model and large language models 
+(LLMs) for machine translation. The goal is to utilise existing open-source t echnologies in the 
+form of APIs and making a functional app for translation services . 
+We got a list of common phrases used in residential and community aged care settings which 
+can be used to check performance of the built app.","For this project, we aim to use open-source UI frameworks such as Flutter, open-source LLMs 
+such as Llama3 and OpenAI  Whisper model to develop a functional app for translation services 
+to be useful for community .","The team working on the project should deliver a written report on the project, source code, and 
+working web application .",Sonit Singh,P17 - CALDtalk- Overcoming language barriers in our community.pdf
+A System for Predicting Information Evolution in Social Networks,Jiaojiao Jiang,Software development; Big data analytics and visualization .,5,"A ""meme"" is a piece of transmissible information that spread and evolve analogously to genes 
+through communication. The goal of this project is to develop a system that can predict the 
+evolution of information within social networks. By analyzing the spread and transformation of 
+data, this system aims to provide insights into how information evolves over time, enabling 
+better understand ing and forecasting of trends, virality, and influence patterns within digital 
+communities .","1. Data Acquisition: Building pipelines to collect and store data from social networks such as 
+Twitter, Facebook, Instagram, and Reddit.  
+2. Data Processing: Cleaning and preprocessing data to ensure quality and consistency for 
+analysis.  
+3. Algorithm Development: Implementing the Yule model to detect, analyze, and predict 
+information spread, including text analysis, trend detection, and network analysis.  
+4. System Development: Integrating all components into a cohesive system with a user-friendly 
+interface for end-users . 
+Data Collection Module:  
+ 
+1. Social Media Integration: Integrate with APIs of major social networks such as Twitter, 
+Facebook, Instagram, and Reddit.  
+2. Data Types: Collect various types of data, including text posts, images, videos, comments, 
+likes, shares, and timestamps.  
+3. Historical Data: Ability to retrieve historical data within the limits set by each platform.  
+4. Data Storage: Store collected data in a scalable, efficient database.  
+ 
+Data Processing Module  
+1. Data Cleaning: Implement processes to remove duplicates, correct errors, and standardize data formats.  
+2. Preprocessing: Tokenization, stop-word removal, stemming/lemmatization for text data.  
+3. Data Transformation: Transform raw data into structured formats suitable for analysis, such 
+as JSON or CSV.  
+Visualization Tools  
+1. Dashboard: Create an interactive dashboard for users to visualize trends, predictions, and 
+network dynamics.  
+2. Graphs and Charts: Provide various types of visualizations such as line graphs, bar charts, 
+heat maps, and network graphs.  
+3. Customizable Views: Allow users to customize views based on parameters like time range, 
+data source, and specific topics.","Programming Languages  
+1. Python: For data processing and backend development.  
+2. JavaScript: For frontend development.  
+3. SQL/NoSQL: For database management and querying . 
+Adaptability and Collaboration  
+1. Learning New Technologies: Willingness to learn and adapt to new technologies and 
+methodologies as the project evolves.  
+2. Team Collaboration: Ability to work effectively within a multidisciplinary team.","source code, user guide, and documentation.",Jiaojiao Jiang,P11 - A System for Predicting Information Evolution in Social Networks.pdf
+"The Association of Gene Expression of Microbes and Host Immune Responses in 
+Eye Infections.",Nicole Carnt,Bioinformatics/Biomedical .,6,"The balance between microbes and the host immune response in ocular surface eye infections 
+is balanced by the control of the infective process and limiting scarring from excess 
+inflammation. A dataset of total RNA from eye infections collected by ocular su rface swabs and 
+analysed by RNASeq has been investigated for host immune response. Preliminary data on 
+microbe/microbiome gene expression has been extracted but how this aligns with the type and 
+outcome of infection is not known .","In this study, you will investigate the total RNA gene expression from ocular surface eye 
+infections using emerging software tools and design of novel algorithms. This will be associated 
+with infection type and outcome (which will be provided by the client ).",Capability to use “R” packages for data analysis and visualisation.,"Source code, pilot data to be used in funding applications .",Nicole Carnt,P34 - The association of gene expression of microbes and host immune responses in eye infections.pdf
+Development of Smartphone-Based Tuberculosis Detection Application,Dr Reza Argha,"Mobile application development; Artificial Intelligence 
+(Machine/Deep Learning, NLP); Software development.",7,"Tuberculosis (TB) remains a significant global health threat, contributing to high mortality rates 
+worldwide. This infectious disease is primarily caused by the bacterium Mycobacterium 
+tuberculosis (Mtb), with pulmonary tuberculosis (PTB) being the most common manifestation 
+affecting the lungs. However, TB can also manifest in extrapulmo nary sites (EPTB).  
+In recent years, there has been a growing body of research focused on leveraging deep 
+learning (DL) techniques for the detection of TB using medical imaging modalities, particularly 
+chest X-ray (CXR) images. These DL models hold promise for enhancing the a ccuracy and 
+efficiency of TB diagnosis.  
+Building upon this foundation, our project aims to further advance TB detection capabilities by 
+integrating a state-of-the-art DL model into a user-friendly smartphone application. By 
+harnessing the power of smartphone cameras, our app will enable users to  capture images of 
+their CXR and promptly analyse them for signs of TB. This innovative approach has the 
+potential to revolutionise TB screening and diagnosis, particularly in resource-limited settings 
+where access to specialists and other diagnostic metho ds may be limited.","• Develop a mobile-friendly version of a state-of-the-art DL model for TB detection using CXR 
+images.  
+• Integrate the DL model into a user-friendly smartphone application.  
+• Enable users to capture CXR images using the smartphone camera.  
+• Implement real-time image analysis capabilities for TB detection.  
+• Ensure the application's compatibility with a wide range of smartphone devices.  
+• Provide user-friendly interfaces and clear instructions for ease of use . 
+• Enable users to capture chest X-ray (CXR) images using the smartphone camera within the 
+app. 
+• Implement image preprocessing techniques to enhance image quality and reduce noise.  
+• Provide options for adjusting image brightness, contrast, and orientation for optimal analysis.  
+• Integrate a pre-trained deep learning model for TB detection into the mobile application.  
+• Implement real-time image analysis and TB detection using the integrated model.  
+• Present TB detection outcomes (e.g., positive, negative) along with confidence scores or 
+probabilities.  
+• Provide visualizations or explanations of key features used by the model for TB detection.  
+• Allow users (clinicians) to provide feedback on diagnostic results (e.g., accuracy, usability) 
+through the app.  
+• Enable users to track their TB screening history and view previous diagnostic reports.  
+• Comply with healthcare data privacy regulations and ensure adherence to ethical 
+guidelines.  
+• Provide comprehensive documentation for installation, usage, and troubleshooting of the 
+mobile application.","• Proficiency in deep learning frameworks such as TensorFlow or PyTorch for developing TB 
+detection models.  
+• Experience with convolutional neural networks (CNNs) and other deep learning 
+architectures for image classification and segmentation.  
+• Expertise in mobile application development using React Native for cross-platform 
+compatibility.  
+• Proficiency in JavaScript, JSX, and React Native APIs for building responsive and 
+interactive user interfaces.  
+• Experience with native modules and device APIs for accessing smartphone camera, 
+storage, and other hardware features.  
+• Experience with version control systems (e.g., Git) and collaborative development 
+platforms (e.g., GitHub, GitLab) for code management and collaboration.  
+• Ability to work effectively in multidisciplinary teams, including developers, designers, 
+healthcare professionals, and project stakeholders.","• Implement deep learning algorithms to analyze captured CXR images for signs of 
+tuberculosis.  
+• Provide real-time feedback on TB detection results, including confidence scores and 
+diagnostic recommendations.  
+• Ensure fast and responsive performance, with minimal latency in image capture and 
+analysis.  
+• Optimize algorithm efficiency to reduce computational resources and battery consumption 
+on smartphones.  • Implement error handling mechanisms to gracefully handle unexpected errors or 
+disruptions.  
+• Conduct thorough testing and validation to identify and address potential software bugs or 
+issues.  
+• Design intuitive and user -friendly interfaces that are easy to navigate and understand.  
+• Provide clear instructions and tooltips to guide users through the image capture and 
+analysis process.  
+• Incorporate feedback mechanisms to gather user input and suggestions for improving 
+application usability.  
+• Ensure compatibility with a wide range of smartphone devices and operating systems (e.g., 
+Android, iOS).  
+• Conduct compatibility testing on different device models, screen sizes, and resolutions to 
+ensure consistent performance.  
+• Prepare comprehensive user documentation and tutorials for installing, configuring, and 
+using the smartphone application.  
+• Include step-by-step instructions, troubleshooting tips, and frequently asked questions 
+(FAQs) to assist users.  
+• Develop training materials for healthcare professionals and users on the proper use and 
+interpretation of TB detection results .",Dr Reza Argha,P27 - Development of Smartphone-Based Tuberculosis Detection Application.pdf
+"Health software for managing disease, rehabilitation and controlling medical devices",Professor  Nigel Lovell,"Software development; Web application development; Mobile 
+application development; Artificial Intelligence (Machine/Deep Learning, NLP);Big data analytics 
+and visualization; Robotics; Bioinformatics/Biomedical; Cloud computing.",3,"As part of the Tyree Institute of Health Engineering (IHealthE ) we have been developing web 
+apps and backend clinical portals and databases for numerous health applications. This 
+description is meant to broadly describe the scope for >3 such health projects.  
+You would be supported by our IHealthE software foundry that has two post-docs (Dr Peter 
+Brown and Dr Reza Argha) working in it, along with half a dozen front and backend software 
+developers, some with decades of experience developing medical software .","Project functional requirements would be co-designed with the student groups, clinicians, other 
+stakeholders and the IHealthE software foundry team. At this stage we have potentially four 
+projects around:  
+• use of React for development of a full featured app to control soft biorobotic devices with 
+one application being for control of a compressive sleeve for people with painful 
+lymphoedema.  
+• use of React and deep learning approaches to develop an app for human pose estimation 
+for virtual remote rehabilitation.  
+• full-stack development to integrate a system called StandingTall (comprising a suite of over 
+6000 rehabilitation exercises) with our current telehealth system that is being used for 
+monitoring chronic disease in SE Sydney Local Health District  
+• use of Unity for development of AR/VR systems for haptic control of soft biotic devices and 
+for surgical training and exploration  
+• development using node.JS of a comprehensive clinical portal and database for managing 
+people with artificial heart pumps including capturing and display of data from patients 
+implanted with such pumps.","Those working on front end mobile apps would require skills in React /React Native.  
+Most of our backend development work would be in Python/Django but some projects may use 
+node/JS or other tools. Typically, we would deploy our systems on the Microsoft Azure Cloud .","Source code on our repository with appropriate documentation.  
+Some projects that would involve working with our existing code bases and industry/health 
+partners may require the students to sign non -disclosure agreements and relinquish any 
+ownership to intellectual property and code as a requirement of working on the project.",Dr Peter Brown and Dr Reza Argha,"P26 - Health software for managing disease, rehabilitation and controlling medical devices.pdf"
+ESG Metrics Recommender Using Stardog Knowledge Graph,"Prof. Fethi, Mingqin Yu, Dr. Basem Suleiman.","Big data analytics and visualization; Artificial Intelligence 
+(Machine/Deep Learning, NLP); Software development .",5,None,None,"• Natural Language Processing (NLP)  
+• Knowledge Graph Development  
+• Big Data Analytics and Visualization .","• Documented source code  
+• CSV files  
+• Shared endpoint (with Owner Access Level to all databases)  
+• Final recorded demo  • Comprehensive project documentation covering knowledge graph models, mapping in 
+corresponding CSV files, explanations, user workflows, and user guides  
+• A section on challenges encountered .",Mingqin Yu,P38 - ESG Metrics Recommender Using Stardog Knowledge Graph.pdf
+"Deep -Learning Techniques to Understand Chromosome Interactions with Enhanced 
+Interpretability and Uncertainty Estimation",Hamid Alinejad-Rokny,"Software development; Computer Science and Algorithms; 
+Artificial Intelligence (Machine/Deep Learning, NLP);Big data analytics and visualization; 
+Bioinformatics/Biomedical",3,"Supervisory team: Dr. Hamid Rokny (GSBmE), Dr. Reza Argha, and Prof. Nigel Lovell 
+(GSBmE).  
+ 
+Abstract: The 3D arrangement of our DNA critically influences gene regulation by positioning 
+regulatory elements such as enhancers close to gene starting points, or  promoters. 
+Understanding how gene expression is regulated across various cell types has seen significant 
+progress; however, the study of DNA's 3D structural variations among these cell types remains 
+a pioneering area of research. Recent technological adva ncements have enabled the 
+examination of DNA organization at the single-cell level, exposing cell-specific structural 
+differences. Yet, a comprehensive understanding of how these structural variances affect gene 
+activity requires the development of more so phisticated computational models. This project 
+aims to develop advanced deep-learning methods that not only predict but also interpret the 
+complex interactions within DNA's 3D structure. By integrating techniques for enhanced 
+interpretability, our models w ill provide meaningful insights into the biological significance of 
+chromosomal arrangements, making the complex interplay more accessible to biologists. 
+Additionally, we will incorporate uncertainty estimation within our computational framework, 
+ensuring robust predictions even when dealing with the inherent variability and noise present in 
+single-cell genomic data. This dual approach will improve confidence in the model outputs and 
+facilitate a deeper understanding of the dynamic 3D genome architecture's role in cell-specific 
+gene regulation.  
+ 
+Resources: We have access to 3D genome organization data from more than 50 samples. We 
+have also local high-performance  GPU and CPU computing systems in UNSW Biomedical  
+Machine Learning Lab.  
+ 
+The skills required for project(s): Scripting experience in Python.  
+ 
+What skills will you gain during your degree: Machine learning and data analytics techniques, 
+Bioinformatics, Systems Biology.  
+ 
+References  
+https://www.nature.com/articles/nature12593   
+https://www.nature.com/articles/s41587-021-01034-y  
+https://www.pnas.org/doi/10.1073/pnas.1901423116","The project aims to advance our understanding of the 3D structure of DNA and its impact on 
+gene regulation. Here's an outline of the project scope:  
+ 
+Development of Deep Learning Models: Create advanced algorithms to model DNA's 3D 
+interactions, focusing on  single-cell genomic data.  
+ 
+Enhanced Model Interpretability: Implement interpretability techniques to make model 
+predictions accessible and meaningful to biological researchers.  
+ 
+Uncertainty Estimation: Incorporate methods to estimate prediction uncertaint y, addressing the 
+variability and noise in genomic data.  
+ 
+Cross-Cell Type Analysis: Conduct analyses comparing DNA structures across different cell 
+types to understand structural influences on gene activity.  
+ 
+Collaborations and Data Sharing: Partner with g enomic labs for data access and establish a 
+framework for disseminating research findings.  
+ 
+Application and Validation: Validate the models using independent datasets to ensure their 
+effectiveness in real-world scenarios.  
+ 
+This project combines computation al modelling with biological insights to explore the dynamic 
+nature of genome architecture across different cellular environments . 
+ 
+Resources : We have access to 3D genome organisation data from more than 50 samples. We 
+have also local high-performance GPU and CPU computing systems at UNSW BioMedical 
+Machine Learning Lab.","The skills required for project(s): Scripting experience in Python.  
+Don't worry about the biology side of the project; we'll teach you.","The expected outcomes and deliverables for the project are:  
+Expected Outcomes:  
+Robust Predictive Models: Development of deep-learning models for accurate predictions of 
+DNA's 3D interactions.  
+Interpretability Insights: Enhanced understanding of DNA structures influencing gene regulation 
+via interpretable models.  
+Reliable Predictions: Integration of uncertainty estimation to ensure confidence in predictions 
+from noisy single-cell data.  
+Deliverables : 
+Software Tools: A comprehensive suite of software tools, complete with documentation for user 
+guidance.  
+Research Publications: Research papers detailing methodologies and findings, published in 
+peer-reviewed journals.  
+Data and Models: Public release of processed datasets and trained models for community use 
+and further research.  Training Sessions: Workshops or webinars to educate researchers on the tools developed and 
+their genomic applications.  
+Collaboration Reports: Documentation of collaborative efforts, showcasing practical applications 
+in various biological studies.",Hamid Alinejad-Rokny,P5 - Deep-Learning Techniques to Understand Chromosome Interactions with Enhanced Interpretability and Uncertainty Estimation.pdf

@@ -1,0 +1,973 @@
+DNA and protein sequence analysis
+protein structure analysis
+genomic data management
+transcriptomic analysis
+proteomic analysis
+functional genomics
+systems biology
+"DNA, RNA, and protein data analysis"
+molecular structure and function exploration
+application of computational strategies to biological problems
+use of bioinformatics in genomics and proteomics
+"sequence, structure, and functional data management"
+Python programming
+computational thinking
+computer systems
+spreadsheet usage
+Fundamental programming concepts
+computer science introduction
+C programming language
+programming design and organization
+program testing and debugging
+Computer system architecture
+operating systems
+procedural programming
+assembly/machine level programming
+CPU component functionality
+concurrency in computing
+virtual memory management
+Software engineering principles
+agile methodologies
+team collaboration
+project management in software development
+software development life cycle
+software system analysis
+Fundamental programming concepts
+introduction to computer science
+C programming language
+program design and organization
+program testing and debugging
+Software construction techniques
+Unix filters and shell scripting
+Python programming
+use of Git for version control
+Docker for deployment
+package management for software configuration
+Formal methods in computing
+specification and refinement of systems
+implementation through formal proof
+proof obligations
+discrete mathematics applications in computing
+data structures
+recursion
+algorithm analysis
+abstract data types
+binary search trees
+balanced search trees
+graphs
+sorting algorithms
+heaps
+hashing
+tries
+software design principles
+Recursion
+Analysis of algorithms
+Abstract data types
+Binary search trees
+Balanced search trees
+Graphs
+Sorting algorithms
+Heaps
+Hashing
+Tries
+"Algorithm design techniques including greedy, dynamic programming, and divide and conquer"
+Application of algorithms in various contexts such as graphs and strings
+Evaluation of algorithm efficiency and correctness
+Technical communication using LaTeX
+Compiler construction
+Programming language syntax and semantics
+Object-oriented programming fundamentals
+Java bytecode generation
+"Virtual machine architecture, specifically JVM"
+Compiler front-end development without automatic generators
+Computer system design
+Performance evaluation and optimization
+Processor architecture including pipelined RISC processors
+Hierarchical memory systems
+Multi-core processor systems
+Simulation and modeling of hardware designs
+Basic and advanced concepts of operating systems
+"Process, thread, and concurrency management"
+File systems and memory management
+Scheduling algorithms
+Practical implementation aspects of teaching operating systems
+"Relationship between operating systems, application software, and hardware"
+Fundamentals and advanced concepts in relational database management systems (RDBMSs)
+Development of database applications and their integration with software systems
+Internal workings and technology stacks of DBMS
+Historical evolution and future trends in database systems and technologies
+Performance analysis and optimization in relational databases
+"Medium access control, congestion control, flow control, and reliable transmission"
+Addressing and naming in networks
+Routing and switching techniques
+"Protocols such as Ethernet, IP, TCP, UDP, HTTP"
+"Special-purpose networks like content delivery, peer-to-peer, and wireless networks"
+Network security and defensive techniques
+Knowledge representation and automated reasoning
+Machine learning principles and applications
+AI programming languages and control methods
+Search strategies and pattern matching techniques
+"Applications in computer vision, speech recognition, natural language processing, expert systems, game playing, and computer-aided learning"
+Philosophical and psychological implications of AI
+UI and Visual Design Principles
+User-Centered Design process stages
+Cognitive capacities' impact on design
+Accessibility and internationalization design
+Expertise levels and collaborative design
+New technologies' design implications
+Algorithmic solutions in sustainable farming and strategy games
+Relationships between complex problems and feasible solutions
+Use of algorithm design techniques in various domains
+Primer on intractable problems for advanced studies in computer science
+"Basic concepts, components, and behaviors of modern monolithic operating systems"
+Relevant characteristics of hardware
+"Processes, threads, concurrency"
+"File systems, memory management, scheduling"
+Practical experience in operating system development
+Real-world IT/CS project exploration
+"Coding, debugging, optimizing solutions"
+Teamwork and effective collaboration
+Project management and prioritization
+Technical documentation and communication
+Research project completion
+Development project execution
+Project presentation and reporting
+"Formal languages, Turing Machines"
+"Computability, semi-decidability concepts"
+"Universal TMs, Church-Turing thesis"
+"Halting problem, undecidability proofs"
+"Complexity classes, non-determinism"
+"Polynomial reductions, NP completeness"
+"Regular expressions, context-free grammars"
+"Determinisation, Chomsky normal form"
+"Pumping lemma, push-down automata"
+"Program semantics, correctness applications"
+"Analysis, design, FPGA-based accelerators"
+High-level synthesis applications
+"Project development, team formation"
+"Group seminars, project work"
+Final project presentations
+Exploration of computer science ethics
+"Examination of ethical claims, judgements"
+"Construction, evaluation of ethical arguments"
+"Utilitarian, deontological, virtue ethics"
+"Ethics of AI, transparency, explainability"
+Engineering principles application
+Problem-solving through design and investigation
+Thesis project complexity and creativity
+Research and development practices
+Thesis management and solution finding
+Integration of engineering principles
+Innovative problem-solving in engineering
+Thesis project planning and execution
+Research in engineering contexts
+Development of software/hardware systems
+Integration of engineering principles
+Innovative problem-solving
+Thesis project planning and execution
+Research and development in engineering
+Development of significant software/hardware systems
+Integration of engineering principles
+Innovative problem-solving
+Thesis project planning and execution
+Research and development in engineering
+Development of significant software/hardware systems
+Integration of engineering principles
+Innovative problem-solving
+Thesis project planning and execution
+Research and development in engineering
+Development of significant software/hardware systems
+Integration of engineering principles
+Innovative problem-solving
+Thesis project planning and execution
+Research and development in engineering
+Development of significant software/hardware systems
+Modern web application development
+HTML basics
+CSS styling
+Vanilla Javascript and Javascript frameworks
+UI/UX principles
+Accessibility in web design
+Network & asynchronous programming
+Front-end testing
+Industry-standard software development
+Automated source code analysis
+Software vulnerability identification
+Static analysis and verification theories
+Development of source code analysis tools
+Use of compilers and open-source frameworks for code analysis
+Detection and enhancement of code quality and security
+Web application vulnerabilities
+Security engineering in web development
+"OWASP vulnerabilities including cross-site scripting, browser security models, injection attacks, and more"
+"DNS, man-in-the-middle, data leakage, spoofing, UI, and social vulnerabilities"
+Assurance and testing standards in web security
+Technical and legal aspects of digital forensics
+Use of forensic tools for data extraction and analysis
+Low-level technical skills underpinning digital forensics
+"Advanced topics in digital forensics, including cloud and anti-forensics techniques"
+"Professional forensic practices, such as chain of custody and record-keeping"
+"Memory, disk, network, device, and mobile forensics"
+Ethical considerations in digital forensics
+Mock courtroom experience for practical understanding of forensic testimony
+"Cryptography, distributed computing, secure coding fundamentals"
+"Economic mechanisms, algorithms in cryptocurrencies"
+"Smart contract programming, deployment"
+"Alternate designs, applications of ledger technologies"
+"Socio-economic, ethical, legal dimensions analysis"
+Blockchain technology introduction and platforms
+Software architecture roles of blockchain
+Design process and suitability of blockchain
+"Non-functional aspects: cost, performance, security"
+"Real-world blockchain application use cases"
+POS tagging
+sentiment analysis
+machine translation
+named entity recognition
+summarization
+IoT technology
+sensor data processing
+machine learning in IoT
+IoT security
+NP-hard problems
+algorithmic complexity
+graph theory applications
+randomized and quantum algorithms
+Intermediate and advanced C++ features
+Standard Template Library (STL)
+C++ memory management
+C++ design patterns
+"Memory, disk, and network forensics"
+anti-forensics techniques
+cloud forensics
+mobile forensics
+Set and relation theory
+recursion and induction
+combinatorics
+discrete probability
+graph theory
+propositional logic
+Boolean algebras
+Generic programming techniques
+object-oriented programming
+functional programming
+tkinter for GUI development
+Python data types and memory management
+Fundamental data types and structures
+abstract data types
+dynamic data structures
+algorithm efficiency and correctness
+graph algorithms
+search trees
+text processing algorithms
+"Algorithm design techniques (greedy algorithms, dynamic programming, divide-and-conquer)"
+algorithm application in various fields
+technical documentation with LaTeX
+Compiler design (front end and back end components)
+language parsing and code generation
+virtual machine implementations
+Java bytecode generation
+"Processes, threads, concurrency"
+file systems
+memory management
+scheduling
+operating system structure and components
+Processor design principles
+RISC architecture
+memory hierarchy
+multi-core systems
+power efficiency in design
+Operating system components and behaviors
+"processes, threads, and concurrency management"
+file systems
+memory management
+scheduling techniques
+Relational database management systems (RDBMS)
+database schema design
+SQL queries
+stored procedures and triggers
+transactions and concurrency control
+RDBMS architecture
+Graph data structures
+fundamental and advanced graph algorithms
+external and distributed graph processing
+graph neural networks
+Characteristics of big data
+"Hadoop ecosystem components (YARN, HDFS, HBase, Hive)"
+Spark framework
+"algorithm design for data stream mining, graph data processing, and similarity search"
+Internal structure of DBMSs
+"SQL Server, Oracle, PostgreSQL specifics"
+storage structures
+implementation of relational operations
+query optimization
+transactions and concurrency
+recovery mechanisms
+security in databases
+Adaptive coding
+information theory
+text and XML compression
+indexing and querying
+pattern matching
+efficient data structure implementation
+Data access and ingestion techniques
+database usage from relational to NoSQL
+data curation processes (ETL)
+application of analytics and machine learning
+data visualization
+software service development
+Medium access control
+congestion and flow control
+addressing and routing
+"core network protocols (Ethernet, IP, TCP, UDP, HTTP)"
+"specialized network types (peer-to-peer, wireless)"
+network security
+Queuing theory
+response time analysis
+network and system design through integer programming
+simulation in computer networks
+Autonomous agents
+problem-solving and optimization
+logic and reasoning
+knowledge representation
+uncertainty
+computer vision
+natural language processing
+machine learning
+neural networks
+reinforcement learning
+Linear models for regression and classification
+local methods like nearest neighbor
+decision trees
+kernel machines
+neural networks
+unsupervised learning
+ensemble learning
+learning theory
+Probabilistic Graphical Models (PGMs)
+Bayesian networks
+Markov networks
+Conditional Random Fields
+Markov chains
+Hidden Markov Models
+Kalman Filters
+Markov decision processes
+Monte Carlo Markov Chains (MCMC)
+Gibbs Sampling
+Viterbi algorithm
+Baum-Welch algorithm
+Perceptrons
+feedforward neural networks
+backpropagation
+convolutional neural networks
+image processing
+recurrent neural networks
+language processing
+semantic analysis
+long short-term memory (LSTM)
+deep reinforcement learning
+autoencoders
+generative models
+adversarial training
+Computer vision
+speech and language processing
+deep learning
+knowledge representation and reasoning
+project development in AI
+User-Centered Design process
+cognitive psychology in design
+designing for accessibility and internationalization
+emerging technologies like the metaverse and immersive technologies
+Image processing
+feature extraction
+object detection
+motion estimation
+machine learning and deep learning applications in computer vision
+Types of recommender systems
+recommendation algorithms
+machine learning and natural language processing for recommender systems
+"Algorithmic strategies (greedy, dynamic programming, divide and conquer)"
+complexity and intractability
+application of algorithms in real-world scenarios
+Autonomous agents
+problem solving and optimization in AI
+logic and reasoning
+AI in vision and language processing
+foundations of machine learning and neural networks
+Programming
+debugging
+software optimization
+application of information technology and computer science concepts
+project lifecycle management
+Advanced research techniques
+application and optimization of algorithms
+experimental design and evaluation
+technical presentation skills
+Advanced research projects
+algorithm optimization and application
+comparative analysis
+literature review and synthesis
+Advanced research projects
+algorithm optimization and application
+comparative analysis
+literature review and synthesis
+Probability theory
+statistical methods
+regression analysis
+machine learning algorithms
+data visualization
+Bayesian statistics
+econometrics
+data mining
+neural networks
+Data science fundamentals
+"machine learning applications including Naïve Bayes classification, Decision Trees, K-NN, unsupervised learning, and neural networks"
+statistical methods including regression analysis and Bayesian statistics
+data visualization and econometric modeling
+Introduction to computing in engineering
+Python programming and its applications
+use of Matlab and spreadsheets for engineering tasks
+engineering problem-solving through computing
+Startup ideation and development
+market analysis and target identification
+creation of minimum viable products
+revenue models and pricing strategies
+financial planning including debt and equity financing
+legal and accounting foundations for startups
+"sales, marketing, and cultural strategy"
+"capital raising, business growth, and exit strategies"
+Functions and their inverses
+limits and continuity in calculus
+differential and integral calculus
+sequences and series
+mathematical induction
+the binomial theorem
+basics of probability
+vectors in 2D and 3D
+systems of linear equations and Gaussian elimination
+introduction to Maple computer algebra system
+Techniques in calculus and linear algebra
+applications in life sciences and interdisciplinary contexts
+mathematical modeling in real-world scenarios
+use of software tools in problem-solving
+development of mathematical communication skills
+Descriptive statistics and data exploration
+study designs and sampling methods
+probability concepts and independence
+discrete and continuous distributions
+hypothesis testing and confidence intervals
+linear regression and correlation analysis
+Set theory
+number theory
+proofs and logic
+combinatorics
+graph theory
+problem-solving using discrete mathematics principles
+independent and reflective learning through problem-solving
+communication of mathematical arguments
+"Calculus: functions, integrals, fundamental theorems"
+"Algebra: vectors, matrices, linear equations"
+Gaussian elimination and introductory linear algebra
+"Mathematical documentation using technology"
+Calculus
+Algebra
+vectors and matrices
+Gaussian elimination
+Limits and continuity
+Differential calculus
+Multivariable calculus
+Vector geometry
+Matrix algebra
+Partial derivatives
+Integration techniques
+Taylor series
+Eigenvalues and eigenvectors
+Probability distributions
+Multivariable calculus
+Integration techniques
+Vector spaces
+Eigenvalues and eigenvectors
+Probability theory
+Vector spaces and linear transformations
+Eigenvalues and eigenvectors
+Ordinary differential equations
+Optimization techniques
+Taylor polynomials
+Functions of several variables
+Double and triple integrals
+Stokes’ and Green’s theorems
+Taylor series and Lagrange multipliers
+Double integrals
+Ordinary differential equations
+Vector field theory
+Laplace transforms
+Partial differential equations
+Partial differentiation
+Vector algebra
+Matrix applications
+Laplace transforms
+Fourier series
+Numerical differentiation and integration
+Matrix operations
+Probability distributions
+Statistical inference
+Regression analysis
+Vector spaces
+Eigenvalues and eigenvectors
+Descriptive statistics
+Probability distributions
+Statistical inference
+Functions of several variables
+Double and triple integrals
+Stokes’ and Green’s theorems
+Taylor series and Lagrange multipliers
+Ordinary differential equations (ODEs)
+Partial differential equations (PDEs)
+Bessel's equation
+Heat and wave equations
+Second-order ODEs with variable coefficients
+Partial differential equations (PDEs)
+Sturm-Liouville theory
+Fourier and Green's functions methods
+Equations of motion for atmospheric and oceanic flows
+Earth's rotation effects
+Energy balance in climate systems
+Potential vorticity and wave dynamics
+Numerical integration and differentiation
+Floating point arithmetic
+Solution of nonlinear equations
+Initial value problems
+Primality testing
+Modular arithmetic
+Error-correcting codes
+Construction of new fields
+Systems of linear equations
+Vector spaces
+Linear transformations
+Diagonalisation and Jordan forms
+Orthogonal and unitary transformations
+Eigenvalues and eigenvectors
+Canonical forms
+Applications of linear algebra in differential equations and geometry
+Distribution theory
+Point and interval estimation
+Hypothesis testing
+Central limit theorem
+Descriptive statistics
+"Probability distributions (Binomial, Poisson, Exponential, Normal)"
+Statistical inference
+Regression analysis
+Analysis of variance
+Data manipulation techniques
+Graphical data representation
+Advanced programming constructs in SAS
+Data integration and transformation
+Random variables
+Distribution theory
+Estimation methods
+Hypothesis testing
+Finite difference methods
+Finite element methods
+Stability analysis
+Computational efficiency
+Numerical linear algebra
+Partial differential equations (PDEs)
+Fourier and Laplace transforms
+Green’s functions
+Asymptotic analysis
+Convexity and optimization modeling
+Unconstrained and constrained optimization
+Numerical optimization algorithms
+Optimal control and the Pontryagin Maximum Principle
+Financial modeling
+Error analysis and computational complexity
+"Numerical techniques in finance (e.g., Fourier series, Monte Carlo methods)"
+Matrix operations and properties
+Algorithms for solving linear systems
+Eigenvalue computations
+Numerical stability and efficiency
+Divisibility and prime numbers
+Arithmetic of residue rings
+Diophantine approximations
+Applications in cryptography
+History of mathematics
+Evolution of mathematical concepts
+Contributions of diverse cultures to mathematics
+Real numbers
+Sequences and series
+Limits
+Continuity
+Differentiability
+Integrability
+Metric spaces
+Topological spaces
+Normed vector spaces
+Functional analysis
+Group theory
+Ring theory
+Symmetry in mathematics
+Probability theory
+Stochastic processes
+Poisson and Wiener processes
+Ito Calculus
+Uniformly minimum variance unbiased estimation
+Cramer-Rao inequality
+Lehmann-Scheffe theorem
+generalized likelihood ratio tests
+Bayesian inference
+bootstrap resampling
+order statistics
+goodness of fit tests
+contingency table analysis
+rank-based inference
+Linear and generalized linear models
+Bayesian linear models
+nonparametric regression and density estimation
+Monte Carlo simulation
+bootstrap methods
+Markov chain Monte Carlo
+Survey sampling
+Questionnaire design and analysis
+Estimation techniques
+Multivariate normal distribution
+Linear mixed models
+ARMA models
+Spatial statistics
+Kriging
+Probability theory
+Stochastic processes
+Poisson and Wiener processes
+Ito Calculus
+Parametric and non-parametric techniques
+Bayesian statistics
+Bootstrap resampling
+Hypothesis testing
+Convex optimization
+Unconstrained and constrained optimization
+Optimal control
+Numerical methods
+Real Analysis
+Functional Analysis
+Advanced mathematical techniques
+Data handling and quality control
+Statistical methods integration
+Machine learning in environmental contexts
+Applied mathematics
+Real-world applications
+Mathematical modeling
+Finite difference methods
+Finite element methods
+Numerical linear algebra
+Partial differential equations (PDEs)
+MATLAB/Python programming
+Fourier series and FFT
+Monte Carlo methods
+Black-Scholes model
+Matrix factorizations
+Direct and iterative methods
+Specialized algorithms for structured matrices
+Pure mathematics
+Mathematical modeling
+Theoretical analysis
+Pure mathematics
+Mathematical modeling
+Theoretical analysis
+"Rings, fields, and modules"
+Affine and projective varieties
+Riemann-Roch theorem
+Topological vector spaces
+Banach spaces
+Hilbert spaces
+Operator theory
+Metric spaces
+Topological spaces
+Normed vector spaces
+Continuity and compactness
+Group theory
+Ring theory
+Algebraic structures
+Modules over rings
+Group representations
+Principal ideal domains
+Semisimple rings
+Martingales
+Poisson processes
+Brownian motion
+Measure-theoretic probability
+Stationary and non-stationary models
+Autoregressive moving average processes
+Regression models for time series
+Random variables
+Markov chains
+Brownian motion
+Central Limit Theorem
+Maximum Likelihood Estimation
+Least Squares Estimation
+General Linear Models
+Hypothesis testing
+Multivariate regression
+Time series
+Random effects models
+Generalized estimating equations
+Probability theory
+Poisson process
+Wiener process
+Ito Calculus
+Maximum likelihood estimation
+Bayesian inference
+Bootstrap methods
+Asymptotic approximations
+Cox proportional hazards model
+Censoring and truncation
+Hazard models
+Frailty models
+Arbitrage pricing
+Cox-Ross-Rubinstein model
+European and American options
+Fundamental theorems of asset pricing
+Brownian motion
+Ito's lemma
+Stochastic differential equations
+Feynman-Kac formula
+Population dynamics
+Infectious disease modeling
+Drug metabolism
+Biochemical reactions
+API design and development
+Full-stack software architecture
+Software lifecycle management
+Software development cycles
+Requirements and design processes
+Collaborative work management
+Cloud architectures
+Microservices
+API-based systems
+Stakeholder engagement
+Normative ethics
+Meta-ethics
+Ethics of AI and technology
+DC circuit design
+Use of engineering design and simulation tools
+Electrical engineering ethics
+Engineering ethics and safety
+Research methods in engineering
+Graphical communication in engineering
+Civil engineering practices
+Surveying techniques
+Residential building design and construction
+Transistor biasing and amplification
+Frequency-selective circuits
+Small-signal analysis
+Logic gates and boolean algebra
+Analog-to-digital and digital-to-analog conversions
+Communication protocols
+Thermodynamics principles
+Fluid mechanics applications
+Energy transfer systems
+Mechanical and electronic design integration
+Requirements analysis and testing
+Engineering problem-solving
+Properties and applications of construction materials
+Material selection for civil engineering projects
+Environmental impact of construction materials
+Research methodology
+Project management
+Technical writing and presentation skills
+Fourier and Laplace transforms
+Time and frequency domain analysis
+Linear-time invariant systems
+Transmission line theory
+Maxwell's equations and applications
+Antenna and waveguide design and analysis
+Three-phase circuits
+Motor and generator mechanics
+Power conversion technologies
+"Behavior and use of metals, ceramics, polymers, and composites"
+Engineering codes and standards
+Material decision-making in design and fabrication
+System dynamics and modeling
+Vibration isolation techniques
+Feedback control mechanisms including PID controllers
+Aerodynamic forces (lift and drag)
+Flow behavior around solid objects
+Shock and blast wave effects on structures
+Force and moment distribution methods
+Matrix structural analysis
+Construction of force diagrams for structural components
+"Shear strength of soils, stability of retaining structures, slope stability, ground investigation techniques, stress analysis in geotechnical contexts"
+"Travel demand forecasting, traffic flow theory, four-step transport planning method, strategic transport planning"
+"Ship and submarine hydrostatics, stability assessments, naval and commercial ship classification standards"
+"Problem-based learning, research methodology, student-centered projects"
+"Numerical techniques in fluid dynamics, flow physics, CFD software application"
+"NDI techniques, structural integrity assessment, damage tolerance"
+"Helicopter configurations, actuator disc theory, blade element theory"
+"Material deformation, ballistic penetration, protective technologies"
+robotics and autonomous systems
+multi-robot command and control
+reinforcement learning
+formation control
+swarming techniques
+radar fundamentals
+pulse radar concepts
+continuous wave and pulse Doppler radar
+synthetic aperture radar
+radar cross section (RCS)
+radar receiver techniques
+radar tracking techniques
+design methodology
+component analysis and selection
+system testing and characterization
+project documentation and communication
+in-depth research methodologies
+integration of technical and management knowledge
+scope definition in engineering projects
+documentation and reporting of research findings
+capstone project execution
+research scope definition
+communication strategies
+industry-related research documentation
+capstone project execution
+research scope definition
+communication strategies
+industry-related research documentation
+advanced aircraft design concepts
+flight performance analysis
+aerodynamic parameter estimation
+group collaboration in design projects
+civil engineering design processes
+team collaboration
+ethical engineering practices
+construction management principles
+finite element method fundamentals
+mesh optimization
+problem-solving with software tools
+heat transfer analysis
+hydrology principles and practices
+catchment hydrology
+environmental engineering applications
+site contamination and remediation
+design process and optimization
+real-life system design
+negotiation and adaptation in design engineering
+ship design processes
+hullform generation
+machinery selection for marine applications
+structural integrity assessments
+propulsion system integration
+auxiliary system design
+environmental and safety considerations in marine engineering
+Electrical engineering project design
+seminar presentation
+thesis writing
+professional development
+Engineering research methods
+project presentation techniques
+thesis writing and formatting
+professional ethics and standards
+Orbit dynamics and determination
+spacecraft mission design
+space law and policy
+strategic planning in space operations
+Systems engineering processes
+integration with project and quality management
+systems lifecycle management
+functional requirement analysis
+Defence capability development
+systems acquisition and integration
+operational needs analysis
+technology readiness levels
+enterprise architecture
+Data communication fundamentals
+"Network architecture (Physical, Data-link, Network, Transport, and Application layers)"
+Packet routing and reliable communication in networks
+"Cryptography and network security practices"
+Satellite subsystems and orbits
+signal propagation and link calculations
+multiplexing and multiple access methods
+coding schemes and error correction in satellite communications
+Principles of project management in complex environments
+project management body of knowledge application
+strategic orchestration in project management
+Project scope definition
+"scheduling techniques (PERT, CPM)"
+budgeting processes
+resource management
+project control mechanisms
+Construction and function of EO systems
+subsystems for target engagement
+design principles of insensitive munitions
+performance evaluation of supersonic and hypersonic systems
+Initiation reactions and detonation physics
+test methods and instrumentation for explosives
+aging and life assessment of energetic systems
+surveillance and safety evaluation techniques
+Effects of explosives and detonation dynamics
+warhead-target matching principles
+mechanisms of blast and material deformation
+shaped-charge penetration in military applications
+Electronic structure of atoms and molecules
+intermolecular forces and thermodynamics in reactions
+electrochemistry and corrosion
+solution chemistry and reaction kinetics
+"mechanical and physical properties of metals, polymers, and ceramics"
+phase systems and alloy metallurgy
+Military ballistics and their implications on weapon systems
+gun design and fire control systems
+warhead design for guided weapons
+terminal effects and armor penetration
+Python programming
+program implementation
+data simulation
+cybersecurity trends
+attacker and defender strategies
+human vulnerabilities in security
+cybersecurity frameworks
+cyber warfare
+advanced web application attacks
+social engineering techniques
+legal aspects of penetration testing
+ethical frameworks in cybersecurity
+C language fundamentals
+assembly language basics
+compilation and linkage
+security vulnerabilities in programming
+software design practices
+data manipulation languages
+database application techniques
+DBMS internals
+relational database management systems
+feedforward and recurrent neural networks
+deep convolutional networks
+backpropagation
+autoencoders
+language processing
+semantic analysis
+linear regression
+ANOVA and ANCOVA
+generalized linear models (GLMs)
+logistic regression
+smoothing techniques
+variable selection and cross-validation
+regression and classification
+gradient descent and backpropagation
+tree-based learning and ensemble methods
+clustering and dimensionality reduction
+practical machine learning applications
+distribution theory
+maximum likelihood estimation
+confidence intervals
+hypothesis testing
+bootstrap methods
+Bayesian hypothesis testing
+model choice and averaging
+hierarchical and mixture models
+Monte Carlo integration and sampling methods
+databases and data analytics
+data mining
+Bayesian statistics
+econometrics
+business forecasting
+key machine learning algorithms
+application of data science techniques in research
+verbal and visual presentation of research findings
+effective teamwork in data science projects

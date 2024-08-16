@@ -1,0 +1,21 @@
+# PyCharm project files
+.idea/
+*.iml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MyPy cache
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Log files
+*.log

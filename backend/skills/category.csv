@@ -1,0 +1,477 @@
+Skill, Category
+Python, Programming languages
+JavaScript, Programming languages
+SQL, Programming languages
+C, Programming languages
+C++, Programming languages
+Java, Programming languages
+R, Programming languages
+PyTorch, Programming languages
+TensorFlow, Programming languages
+scikit-learn, Programming languages
+Node.js, Programming languages
+Django (Python), Programming languages
+Ruby on Rails, Programming languages
+HTML, Programming languages
+CSS, Programming languages
+"JavaScript (React/ React Native, Angular, Vue.js)", Programming languages
+LaTeX, Programming languages
+"Hadoop (YARN, HDFS, HBase, Hive)", Programming languages
+Spark, Programming languages
+OpenCV, Programming languages
+MATLAB, Programming languages
+Maple, Programming languages
+SAS, Programming languages
+Julia, Programming languages
+Ansys,Programming languages
+Shell Scripting languages, Programming languages
+"Privacy and Security: differential privacy, secure aggregation", Software development
+Cloud data lake platforms (Databricks Lakehouse), Software development
+Android app decompilation  , Software development
+system configuration using package managers, Software development
+"Version control systems: Git, GitHub, GitLab", Software development
+Unix/Linux tools, Software development
+web application development, Software development
+agile software development, Software development
+Front-end	, Software development
+DOM manipulation, Software development
+Back-end, Software development
+API Integration, Software development
+Software integration, Software development
+continuous integration and deployment, Software development
+Microsoft Azure Cloud, Software development
+"API Development: RESTful, GraphQL APIs", Software development
+"Technology stack: MEAN stack, MERN stack", Software development
+middleware technologies, Software development
+HCI principles, Software development
+code debugging and testing, Software development
+testing frameworks and practices, Software development
+usability testing methodologies and techniques, Software development
+UI design, Software development
+"Design for accessibility, international viability", Software development
+software maintenance strategies, Software development
+object-oriented design, Software development
+tkinter for GUI development, Software development
+software system design, Software development
+UI/UX principles and implementation, Software development
+Flutter, Software development
+"database design and management: NoSQL, MySQL, PostgreSQL, MongoDB", Software development
+recovery mechanisms, Software development
+security in databases, Software development
+"Agile software development methods, practices and tools"  , Software development
+"software testing, building and deployment", Software development
+web scrapping, Software development
+unit tests, Software development
+Professional team dynamics management, Software development
+Docker, Software development
+Snakemake, Software development
+cross-platform compatibility, Software development
+Application Programming Interface (API) , Software development
+Android app development, Software development
+iOS app development, Software development
+VS Code Extension Development	, Software development
+VS Code API, Software development
+hardware APIs and SDKs, Software development
+software vulnerability detection, Software development
+Security engineering in web development, Software development
+Dash web dashboard framework, Software development
+penetration testing, Computer science
+performance analysis, Computer science
+Network protocol design and analysis, Computer science
+network security, Computer science
+network programming, Computer science
+network architecture, Computer science
+discrete event simulation, Computer science
+integer programming, Computer science
+Data compression techniques, Computer science
+Web data search and retrieval, Computer science
+programming for data optimization, Computer science
+Programming language syntax and semantics, Computer science
+Data visualization  , Computer science
+compiler construction, Computer science
+Virtual machine architecture, Computer science
+computer architecture, Computer science
+hardware designs, Computer science
+"Processes, threads, concurrency management", Computer science
+File systems management, Computer science
+memory management, Computer science
+Standard Template Library (STL), Computer science
+Designing and optimizing processors, Computer science
+Library design/implementation  , Computer science
+Protocol design/implementation  , Computer science
+Application of formal methods in system modeling, Computer science
+IoT system design, Computer science
+end-to-end IoT solutions, Computer science
+IoT platform usage, Computer science
+IoT technology, Computer science
+sensor data processing, Computer science
+machine learning in IoT, Computer science
+IoT security , Computer science
+IoT system architecture, Computer science
+IoT cloud services, Computer science
+embedded hardware for IoT, Computer science
+Knowledge of blockchain technology, Computer science
+"Cryptography, distributed computing, secure coding fundamentals", Computer science
+ethics in cryptography, Computer science
+computer systems, Computer science
+Algorithm design, Computer science
+linear programming and NP-hard problems , Computer science
+heuristic algorithm design, Computer science
+approximation algorithm development, Computer science
+parameterized algorithm design, Computer science
+exponential-time algorithm analysis, Computer science
+linear programming and NP-hard problems, Computer science
+randomized and quantum algorithms, Computer science
+recursion, Computer science
+abstract data types, Computer science
+binary search trees, Computer science
+balanced search trees, Computer science
+graphs, Computer science
+sorting algorithms, Computer science
+heaps, Computer science
+hashing, Computer science
+tries, Computer science
+data structures, Computer science
+algorithm analysis, Computer science
+Forensic principles and techniques, Computer science
+"Memory, disk, and network forensics", Computer science
+anti-forensics techniques, Computer science
+cloud forensics, Computer science
+mobile forensics, Computer science
+dynamic data structures, Computer science
+Formal languages, Computer science
+Turing Machines, Computer science
+"Computability, semi-decidability concepts", Computer science
+Universal TMs, Computer science
+Church-Turing thesis, Computer science
+Halting problem, Computer science
+undecidability proofs, Computer science
+Complexity classes, Computer science
+non-determinism, Computer science
+Polynomial reductions, Computer science
+ NP completeness, Computer science
+ Regular expressions, Computer science
+context-free grammars, Computer science
+Determinisation, Computer science
+Chomsky normal form, Computer science
+Pumping lemma, Computer science
+push-down automata, Computer science
+"Program semantics, correctness applications", Computer science
+scheduling techniques, Computer science
+cryptographic schemes and protocols  , Computer science
+Cybersecurity, Computer science
+Big Data Analytics, Computer science
+Big data management, Computer science
+map/reduce programming, Computer science
+data structure design for scalability, Computer science
+Knowledge Graph Development  , Computer science
+"Knowledge Graph programming and notation (RDF, TTL, Sparql)"  , Computer science
+Processor design principles, Computer science
+RISC architecture, Computer science
+memory hierarchy, Computer science
+multi-core systems, Computer science
+robotics and autonomous systems, Electric engineering
+multi-robot command and control, Electric engineering
+formation control, Electric engineering
+swarming techniques, Electric engineering
+electronic system design, Electric engineering
+Electromagnetic theory, Electric engineering
+Analog circuit design, Electric engineering
+antenna and waveguide technology, Electric engineering
+Digital systems design, Electric engineering
+Microcontroller integration, Electric engineering
+Analog circuit design, Electric engineering
+Semiconductor device analysis, Electric engineering
+Circuit analysis, Electric engineering
+Practical electrical engineering, Electric engineering
+CAD 3D modeling, Electric engineering
+Engineering materials application, Electric engineering
+Engineering design integration, Electric engineering
+Mechatronic system design, Electric engineering
+ThermoFluids analysis, Electric engineering
+Thermodynamic and fluid mechanics integration, Electric engineering
+Basic biology, Biology
+bioinformatics tool usage, Biology 
+biological data analysis, Biology
+protein structure prediction, Biology
+R programming for bioinformatics, Biology
+data interpretation in proteomics, Biology
+genomic data management, Biology
+transcriptomic analysis, Biology
+proteomic analysis, Biology
+functional genomics, Biology
+systems biology, Biology
+evolutionary foundations of bioinformatics, Biology
+statistical principles in bioinformatics, Biology
+molecular biology context for bioinformatics, Biology
+limitations of bioinformatics methods, Biology
+application of computational methods in biology, Biology
+Bioinformatics analysis and application, Biology
+DNA analysis, Biology
+RNA analysis, Biology
+protein analysis, Biology
+molecular structure and function exploration, Biology
+application of computational methods in biology, Biology
+communication and evaluation of bioinformatics research, Biology
+Drug metabolism, Biology
+Biochemical reactions, Biology
+Longitudinal data analysis, Mathematics and statistics
+Advanced mathematical techniques, Mathematics and statistics
+Mathematical communication, Mathematics and statistics
+Survey design, Mathematics and statistics
+Statistical sampling, Mathematics and statistics
+hypothesis testing, Mathematics and statistics
+Abstract algebra, Mathematics and statistics
+Stochastic modeling, Mathematics and statistics
+Stochastic processes, Mathematics and statistics
+Derivative pricing, Mathematics and statistics
+Martingales, Mathematics and statistics
+Poisson processes, Mathematics and statistics
+Brownian motion, Mathematics and statistics
+Measure-theoretic probability, Mathematics and statistics
+Mathematics history, Mathematics and statistics
+real analysis, Mathematics and statistics
+spreadsheet data management, Mathematics and statistics
+cryptography, Mathematics and statistics
+Gaussian elimination, Mathematics and statistics
+Multivariable calculus, Mathematics and statistics
+Vector calculus, Mathematics and statistics
+Double integrals, Mathematics and statistics
+Geophysical fluid dynamics, Mathematics and statistics
+fluid dynamics, Mathematics and statistics
+Climate dynamics, Mathematics and statistics
+Atmospheric and oceanic circulation, Mathematics and statistics
+Ordinary differential equations, Mathematics and statistics
+Advanced differential equation techniques, Mathematics and statistics
+Power series methods, Mathematics and statistics
+Population dynamics, Mathematics and statistics
+Infectious disease modeling, Mathematics and statistics
+Phase portrait , Mathematics and statistics
+Bessel's equation, Mathematics and statistics
+Heat and wave equations, Mathematics and statistics
+Vector field theory, Mathematics and statistics
+Laplace transforms, Mathematics and statistics
+ Partial differential equations, Mathematics and statistics
+Financial modeling, Mathematics and statistics
+Asymptotic analysis, Mathematics and statistics
+Linear algebra, Mathematics and statistics
+Vector algebra, Mathematics and statistics
+ Matrix applications, Mathematics and statistics
+Fourier series, Mathematics and statistics
+Finite field arithmetic, Mathematics and statistics
+Polynomial algebra, Mathematics and statistics
+Mathematical modeling, Mathematics and statistics
+Statistical modeling, Mathematics and statistics
+Applied mathematics, Mathematics and statistics
+Time series analysis, Mathematics and statistics
+Monte Carlo simulation, Mathematics and statistics
+ bootstrap methods, Mathematics and statistics
+Markov chain Monte Carlo, Mathematics and statistics
+statistical analysis, Mathematics and statistics
+rigorous reasoning and proof techniques, Mathematics and statistics
+Algebraic geometry, Mathematics and statistics
+Ring Theory, Mathematics and statistics
+Fields, Mathematics and statistics
+Modules, Mathematics and statistics
+Affine and projective varieties, Mathematics and statistics
+Riemann-Roch theorem, Mathematics and statistics
+number theory, Mathematics and statistics
+set theory, Mathematics and statistics
+relation theory, Mathematics and statistics
+recursion and induction, Mathematics and statistics
+combinatorics, Mathematics and statistics
+discrete probability, Mathematics and statistics
+graph theory, Mathematics and statistics
+propositional logic, Mathematics and statistics
+Boolean algebras, Mathematics and statistics
+predicate logic, Mathematics and statistics
+discrete mathematics, Mathematics and statistics
+Integer Groups, Mathematics and statistics
+Elliptic Curve Groups, Mathematics and statistics
+Pairing Curve Groups, Mathematics and statistics
+Basic Signature, Mathematics and statistics
+Encryption schemes  , Mathematics and statistics
+Topological vector spaces, Mathematics and statistics
+Banach spaces, Mathematics and statistics
+Hilbert spaces, Mathematics and statistics
+Operator theory, Mathematics and statistics
+Risk management, Mathematics and statistics
+Machine learning, Machine learning
+Survival analysis, Machine learning
+Probability theory, Machine learning
+Bayesian statistics, Machine learning
+Econometrics, Machine learning
+data mining, Machine learning
+Regression, Machine learning
+nearest neighbor, Machine learning
+decision trees, Machine learning
+kernel machines, Machine learning
+unsupervised learning, Machine learning
+ensemble learning, Machine learning
+Classification, Machine learning
+linear regression, Machine learning
+ANOVA and ANCOVA, Machine learning
+generalized linear models (GLMs), Machine learning
+logistic regression, Machine learning
+smoothing techniques, Machine learning
+variable selection, Machine learning
+ cross-validation, Machine learning
+evaluation metrics, Machine learning
+Data cleaning, Machine learning
+Data Analysis, Machine learning
+Geometric transformations, Machine learning
+data management and interpretation, Machine learning
+numerical methods, Machine learning
+Federated Learning, Machine learning
+Statistical inference, Machine learning
+Probabilistic Graphical Models (PGMs), Machine learning
+Bayesian networks, Machine learning
+Markov networks, Machine learning
+Conditional Random Fields, Machine learning
+Markov chains, Machine learning
+Hidden Markov Models, Machine learning
+Kalman Filters, Machine learning
+Markov decision processes, Machine learning
+Monte Carlo Markov Chains (MCMC), Machine learning
+ Gibbs Sampling, Machine learning
+Viterbi algorithm, Machine learning
+ Baum-Welch algorithm, Machine learning
+Deep learning, Machine learning
+neural networks, Machine learning
+graph neural networks, Machine learning
+NLP, AI
+LLM, AI
+Transformers, AI
+language models and fine-tuning techniques, AI
+HuggingFace, AI
+reinforcement learning, AI
+Autonomous agents, AI
+Optimization, AI
+logic and reasoning, AI
+knowledge representation, AI
+uncertainty, AI
+POS tagging, AI
+sentiment analysis, AI
+machine translation, AI
+named entity recognition, AI
+summarization, AI
+image classification, AI
+image  segmentation, AI
+computer vision, AI
+AI model's vulnerability detection, AI
+AI programming, AI
+AI algorithms, AI
+AI integration, AI
+speech recognition, AI
+expert systems, AI
+game playing, AI
+computer-aided learning, AI
+"Data Processing: data preprocessing, feature engineering, handling data heterogeneity", AI
+Data modelling, AI
+industry engineering standards, Others
+project management, Others
+critical thinking, Others
+innovation and creativity in technical solutions, Others
+technical writing and presentation, Others
+Experience in conducting research, Others
+Skills in detailed project documentation, Others
+Presentation of research findings, Others
+ethical issues in technology, Others
+Team Collaboration, Others
+food science, Others
+Gamification knowledge, Others
+"game development and application development for virtual reality (e.g., Unity, Unreal engines)", Others
+Algorithmic solutions in sustainable farming and strategy games, Others
+Construct user-focused surveys and questionnaires, Others
+Problem-Solving, Others
+event data processing, Others
+Robotics: robotic mapping algorithms like SLAM, Others
+business analysis, Others
+Environmental data science, Others
+business forecasting, Others
+Weapons and ammunition design principles, Others
+explosives and propellants evaluation, Others
+armor materials analysis, Others
+ballistic effects assessment, Others
+Material science engineering, Others
+Basic scientific principles in chemistry and materials science, Others
+environmental engineering, Others
+Warhead evaluation and weaponeering, Others
+shock wave and blast effects analysis, Others
+fragmentation analysis and assessment, Others
+shaped-charge design and functionality, Others
+Physics of deflagration-to-detonation transitions, Others
+test standards for energetic materials, Others
+computational modeling for energetic systems, Others
+life cycle assessment of weapons containing energetic materials, Others
+Explosive ordnance (EO) system functionalities, Others
+harnessing explosives for desired capabilities, Others
+iterative design techniques in defense systems, Others
+challenges in advanced weapon system delivery, Others
+Satellite system analysis, Others
+link budget calculation, Others
+antenna property assessment, Others
+Satellite communication, Others
+Civil engineering, Others
+Surveying techniques, Others
+Residential building design and construction, Others
+Defence capability development, Others
+Space systems engineering, Others
+Orbit dynamics and determination, Others
+spacecraft mission design, Others
+space law and policy, Others
+strategic planning in space operations, Others
+hydrological analysis, Others
+environmental impact assessment, Others
+wastewater treatment, Others
+air pollution management, Others
+ship design, Others
+hullform generation, Others
+structural integrity assessments, Others
+marine machinery design, Others
+equipment selection, Others
+fluid dynamics analysis, Others
+regulatory compliance, Others
+mechanical engineering, Others
+aircraft design, Others
+propulsion system design, Others
+dynamic stability evaluation, Others
+Naval architecture, Others
+wind tunnel testing, Others
+Time and frequency domain analysis, Others
+Linear-time invariant systems, Others
+Continuous and discrete time signals and systems, Others
+Transport planning, Others
+Traffic engineering, Others
+Geometric design of roadways, Others
+Geotechnical engineering analysis, Others
+Soil mechanics principles, Others
+Structural stability assessment, Others
+Non-destructive Inspection (NDI), Others
+Fracture mechanics, Others
+Fatigue analysis, Others
+Rotorcraft engineering, Others
+Aerodynamic analysis, Others
+Helicopter dynamics, Others
+radar image processing, Others
+error correction techniques , Others
+radar system design, Others
+dynamic material testing, Others
+Material deformation, Others
+ballistic penetration, Others
+Dynamic systems modeling, Others
+Vibration analysis and control, Others
+Feedback control system design, Others
+Aerodynamic analysis, Others
+Compressible and incompressible flow dynamics, Others
+Potential Flow Theory, Others
+Structural analysis , Others
+Computational modeling in structural engineering, Others
+Static and dynamic analysis techniques, Others
+
+
+
+
+
+
+
