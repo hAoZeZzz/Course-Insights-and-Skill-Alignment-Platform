@@ -1,5 +1,12 @@
 # Course Insights and Skill Alignment Platform:
-Pineapple team   
+## Aim & Scope:
+The project aims to develop a web application platform that collect and aggregate course  
+information (course outlines) from different data sources (e.g., web pages, other systems) and  
+implement an LLM-supported module to summarize the topics, knowledge, and skills covered  
+in each course. Additionally, the application allows users to input their completed courses, and  
+work experience, and use AI based decision making system to assess how well their knowledge  
+and skills align with project requirements.  
+### Pineapple team   
     
     z5347737@ad.unsw.edu.au Zhaoye Zhang  
     z5364634@ad.unsw.edu.au Haoze Zhang  
